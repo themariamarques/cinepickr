@@ -1,0 +1,44 @@
+{
+  "name": "cinepickr",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/core": "^10.0.28",
+    "@emotion/styled": "^10.0.27",
+    "axios": "^0.19.0",
+    "cheerio": "^1.0.0-rc.3",
+    "classnames": "^2.2.6",
+    "jsonfile": "^6.0.1",
+    "node-sass": "^4.13.1",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
+    "react-modal": "^3.11.1",
+    "react-scripts": "3.2.0",
+    "react-youtube": "^7.9.0",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "scrape": "node src/scripts/scrape.js & node src/scripts/saveFilmsData.js",
+    "backdrops": "node src/scripts/saveBackdropData.js"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
