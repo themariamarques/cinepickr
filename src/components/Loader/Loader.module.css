@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.svg {
+  width: 3rem;
+}

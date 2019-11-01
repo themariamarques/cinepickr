@@ -1,17 +1,21 @@
 import React from "react";
-import "./Poster.css";
+import TrailerPlay from "../TrailerPlay";
+import ImgLoader from "../ImgLoader";
+import Styles from "./Poster.module.css";
 
 const Poster = ({ film }) => {
-  const { poster_path: path } = film;
+  const { poster_path: path, videos, original_title: title } = film;
   const basePath = "https://image.tmdb.org/t/p/w300_and_h450_bestv2";
 
   return (
-    <img
-      className="Poster-img"
-      width="175"
-      height="262.5"
-      src={`${basePath}${path}`}
-    />
+    <div className={Styles.container}>
+      <TrailerPlay videos={videos} />
+      <ImgLoader
+        className={Styles.img}
+        src={`${basePath}${path}`}
+        filmTitle={title}
+      />
+    </div>
   );
 };
 

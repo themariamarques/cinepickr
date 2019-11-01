@@ -10,9 +10,5 @@ p {
 html {
   background-color: #14151b;
   font-size: 62.5%;
-}
-
-body {
-  display: flex;
-  flex-direction: column;
+  width: 100vw;
 }

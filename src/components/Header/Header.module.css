@@ -1,4 +1,4 @@
-.Header-container {
+.container {
   display: flex;
   justify-content: center;
   flex-flow: column;
@@ -9,19 +9,19 @@
   background-size: cover;
 }
 
-.Header-content {
-  width: 95rem;
+.content {
+  min-width: calc(95rem - 4rem);
   margin: 0 auto;
 }
 
-.Header-title {
+.title {
   font-size: 2.4rem;
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 0.5rem;
 }
 
-.Header-subtitle {
+.subtitle {
   font-family: "Esteban", serif;
   color: #606a70;
   font-size: 1.6rem;

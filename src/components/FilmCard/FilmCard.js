@@ -1,7 +1,8 @@
 import React from "react";
 import Poster from "../Poster";
-import FilmInfo from "../FilmInfo";
-import "./FilmCard.css";
+import FilmCarInfo from "../FilmCarInfo";
+import Styles from "./FilmCard.module.css";
+import LazyLoad from "react-lazy-load";
 
 const FilmCard = ({ film, index }) => {
   if (!film) {
@@ -9,10 +10,12 @@ const FilmCard = ({ film, index }) => {
   }
 
   return (
-    <div className="FilmCard-card" key={index}>
-      <Poster film={film} />
-      <FilmInfo film={film} />
-    </div>
+    <LazyLoad offsetVertical={500} debounce={false}>
+      <div className={Styles.card} key={index} id={film.id}>
+        <Poster film={film} />
+        <FilmCarInfo film={film} />
+      </div>
+    </LazyLoad>
   );
 };
 

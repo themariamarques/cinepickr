@@ -1,10 +1,10 @@
 import React from "react";
 import FilmCard from "../FilmCard";
-import "./FilmsList.css";
+import Styles from "./FilmsList.module.css";
 
-const FilmsList = ({ films }) => {
+const FilmsList = ({ films, isLoading }) => {
   return (
-    <div className="FilmsList-container">
+    <div className={Styles.container}>
       {films.map((film, index) => {
         return <FilmCard film={film} index={index} />;
       })}

@@ -1,5 +1,5 @@
-.FilmsContainer-container {
-  width: 95rem;
+.container {
+  max-width: 95rem;
   margin: 0 auto;
   display: flex;
   align-items: center;

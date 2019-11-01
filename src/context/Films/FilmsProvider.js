@@ -9,36 +9,41 @@ import fetchFilmDetails from "../../services/fetchFilmDetails";
 const FilmsProvider = ({ children }) => {
   const [films, setFilms] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
+  const [hasFailed, setHasFailed] = useState(false);
 
   useEffect(() => {
-    fetchFilmsInPortugal().then(filmsInPortugal => {
-      filmsInPortugal.map(film => {
-        if (!film.originalTitle && !film.portugueseTitle) {
-          return null;
-        }
-        const title = film.originalTitle || film.portugueseTitle;
-        const year = film.year;
-
-        searchFilm(title, year).then(({ id }) => {
-          if (!id) {
+    fetchFilmsInPortugal()
+      .then(filmsInPortugal => {
+        filmsInPortugal.map(film => {
+          if (!film.originalTitle && !film.portugueseTitle) {
             return null;
           }
+          const title = film.originalTitle || film.portugueseTitle;
+          const year = film.year;
 
-          fetchFilmDetails(id).then(responseFilmDetails =>
-            setFilms(prevFilms => [...prevFilms, responseFilmDetails])
-          );
+          searchFilm(title, year)
+            .then(film => {
+              if (!film || !film.id) {
+                return null;
+              }
+
+              fetchFilmDetails(film.id).then(responseFilmDetails =>
+                setFilms(prevFilms => [...prevFilms, responseFilmDetails])
+              );
+            })
+            .catch(() => setHasFailed(true));
         });
-      });
-
-      setIsLoading(false);
-    });
+      })
+      .then(() => setIsLoading(false))
+      .catch(() => setHasFailed(true));
   }, []);
 
   return (
     <FilmsContext.Provider
       value={{
         films,
-        isLoading
+        isLoading,
+        hasFailed
       }}
     >
       {children}

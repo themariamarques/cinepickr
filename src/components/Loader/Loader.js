@@ -1,11 +1,11 @@
 import React from "react";
-import "./Loader.css";
+import Styles from "./Loader.module.css";
 
 const Loader = () => {
   return (
-    <div className="Loader-container">
+    <div className={Styles.container}>
       <svg
-        className="Loader-svg"
+        className={Styles.svg}
         version="1.1"
         id="L4"
         xmlns="http://www.w3.org/2000/svg"
@@ -42,7 +42,6 @@ const Loader = () => {
           ></animate>
         </circle>
       </svg>
-      <p className="Loader-message">(fetching some life changing data)</p>
     </div>
   );
 };

@@ -1,6 +1,8 @@
-.FilmsList-container {
+.container {
   width: 100%;
   display: grid;
+  animation: fadeIn 1s;
+  animation-fill-mode: forwards;
   grid-template-columns: repeat(auto-fill, minmax(17.5rem, 1fr));
   grid-gap: 2rem;
 
@@ -10,5 +12,14 @@
 
   @media only screen and (min-width: 240rem) {
     grid-gap: 5rem;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
   }
 }
