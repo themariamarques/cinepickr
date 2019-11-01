@@ -1,0 +1,5 @@
+.FilmCard-card {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}

@@ -1,5 +1,5 @@
-import React from 'react';
+import React from "react";
 
-const FilmsContext = React.createContext({films: []});
+const FilmsContext = React.createContext({ films: [] });
 
 export default FilmsContext;

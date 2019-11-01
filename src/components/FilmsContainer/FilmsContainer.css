@@ -1,0 +1,8 @@
+.FilmsContainer-container {
+  width: 95rem;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2.4rem;
+}

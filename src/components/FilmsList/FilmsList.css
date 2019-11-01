@@ -1,0 +1,14 @@
+.FilmsList-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(17.5rem, 1fr));
+  grid-gap: 2rem;
+
+  @media only screen and (min-width: 100rem) {
+    grid-gap: 3rem;
+  }
+
+  @media only screen and (min-width: 240rem) {
+    grid-gap: 5rem;
+  }
+}

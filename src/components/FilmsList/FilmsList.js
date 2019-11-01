@@ -1,19 +1,15 @@
-import React, { useContext } from 'react';
-import { FilmsContext } from '../../context/Films';
+import React from "react";
+import FilmCard from "../FilmCard";
+import "./FilmsList.css";
 
-const FilmsList = () => {
-    const films = useContext(FilmsContext);
-
-    return (
-        <div>
-            <h1>FILMS LIST</h1>
-            {
-                films.map((film, index) => {
-                    return <h2 key={index}>{film}</h2>
-                })
-            }
-        </div>
-    );
-}
+const FilmsList = ({ films }) => {
+  return (
+    <div className="FilmsList-container">
+      {films.map((film, index) => {
+        return <FilmCard film={film} index={index} />;
+      })}
+    </div>
+  );
+};
 
 export default FilmsList;

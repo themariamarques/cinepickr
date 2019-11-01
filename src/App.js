@@ -1,12 +1,14 @@
-import React from 'react';
-import FilmsList from './components/FilmsList';
-import { FilmsProvider } from './context/Films';
-import './App.css';
+import React from "react";
+import Header from "./components/Header";
+import FilmsContainer from "./components/FilmsContainer";
+import { FilmsProvider } from "./context/Films";
+import "./App.css";
 
 function App() {
   return (
     <FilmsProvider>
-        <FilmsList/>
+      <Header />
+      <FilmsContainer />
     </FilmsProvider>
   );
 }
