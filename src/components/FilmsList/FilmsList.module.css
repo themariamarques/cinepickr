@@ -1,4 +1,10 @@
 .container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.filmsContainer {
   width: 100%;
   display: grid;
   animation: fadeIn 1s;
@@ -13,6 +19,17 @@
   @media only screen and (min-width: 240rem) {
     grid-gap: 5rem;
   }
+}
+
+.loadMore {
+  animation: fadeIn 1s;
+  height: 2.4rem;
+  margin-top: 2.4rem;
+  font-size: 1.2rem;
+  color: #bcd;
+  border: none;
+  background-color: #567;
+  border-radius: 0.3rem;
 }
 
 @keyframes fadeIn {

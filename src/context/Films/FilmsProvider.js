@@ -34,7 +34,7 @@ const FilmsProvider = ({ children }) => {
   const getFilms = async () => {
     const filmsFromPortugal = await fetchFilmsInPortugal();
 
-    const chunkSize = 20;
+    const chunkSize = 8;
     const chunkedArray = chunkArray(filmsFromPortugal, chunkSize);
 
     setChunks(chunkedArray);
@@ -91,7 +91,7 @@ const FilmsProvider = ({ children }) => {
   const showLoadMoreBtnAfterTimeout = () => {
     setTimeout(() => {
       setShowLoadMore(true);
-    }, 500);
+    }, 1000);
   };
 
   return (
