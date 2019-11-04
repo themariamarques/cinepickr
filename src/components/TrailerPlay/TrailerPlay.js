@@ -23,6 +23,7 @@ const TrailerPlay = ({ videos }) => {
 
 const findTrailer = videos => {
   return (
+    videos &&
     videos.results &&
     videos.results.find(
       video => video.site === "YouTube" && video.type === "Trailer"

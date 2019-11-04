@@ -1,19 +1,19 @@
 import React from "react";
 import Poster from "../Poster";
-import FilmCarInfo from "../FilmCarInfo";
+import FilmCardInfo from "../FilmCardInfo";
 import Styles from "./FilmCard.module.css";
 import LazyLoad from "react-lazy-load";
 
-const FilmCard = ({ film, index }) => {
+const FilmCard = ({ film }) => {
   if (!film) {
     return null;
   }
 
   return (
     <LazyLoad offsetVertical={500} debounce={false}>
-      <div className={Styles.card} key={index} id={film.id}>
+      <div className={Styles.card} key={film.id}>
         <Poster film={film} />
-        <FilmCarInfo film={film} />
+        <FilmCardInfo film={film} />
       </div>
     </LazyLoad>
   );

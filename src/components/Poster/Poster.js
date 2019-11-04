@@ -4,7 +4,7 @@ import ImgLoader from "../ImgLoader";
 import Styles from "./Poster.module.css";
 
 const Poster = ({ film }) => {
-  const { poster_path: path, videos, original_title: title } = film;
+  const { poster_path: path, videos, title } = film;
   const basePath = "https://image.tmdb.org/t/p/w300_and_h450_bestv2";
 
   return (
