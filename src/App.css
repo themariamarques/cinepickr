@@ -10,5 +10,6 @@ p {
 html {
   background-color: #14151b;
   font-size: 62.5%;
-  width: 100vw;
+  margin: 0;
+  padding: 0;
 }

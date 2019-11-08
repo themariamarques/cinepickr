@@ -2,21 +2,33 @@
   display: flex;
   flex-direction: column;
   width: 100%;
+  align-items: center;
 }
 
-.filmsContainer {
+.content {
   width: 100%;
   display: grid;
   animation: fadeIn 1s;
   animation-fill-mode: forwards;
-  grid-template-columns: repeat(auto-fill, minmax(17.5rem, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(10.5rem, 1fr));
   grid-gap: 2rem;
+}
 
-  @media only screen and (min-width: 100rem) {
+@media screen and (min-width: 768px) {
+  .content {
+    width: 80%;
+    grid-template-columns: repeat(auto-fill, minmax(17.5rem, 1fr));
+  }
+}
+
+@media screen and(min-width: 1000px) {
+  .content {
     grid-gap: 3rem;
   }
+}
 
-  @media only screen and (min-width: 240rem) {
+@media screen and(min-width: 2400px) {
+  .content {
     grid-gap: 5rem;
   }
 }

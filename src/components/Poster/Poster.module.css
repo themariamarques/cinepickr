@@ -1,7 +1,6 @@
 .container {
   border: solid 0.5rem white;
-  height: 262.5px;
-  width: 175px;
+  width: 100%;
   position: relative;
   background-color: #121317;
 }

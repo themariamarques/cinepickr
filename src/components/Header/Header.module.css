@@ -9,11 +9,6 @@
   background-size: cover;
 }
 
-.content {
-  min-width: calc(95rem - 4rem);
-  margin: 0 auto;
-}
-
 .title {
   font-size: 2.4rem;
   font-weight: 400;

@@ -5,7 +5,7 @@ import Styles from "./FilmsList.module.css";
 const FilmsList = ({ films, fetchMoreFilms, showLoadMore }) => {
   return (
     <div className={Styles.container}>
-      <div className={Styles.filmsContainer}>
+      <div className={Styles.content}>
         {films.map((film, index) => {
           return <FilmCard key={index} film={film} />;
         })}
