@@ -5,13 +5,7 @@ import FilmCard from "../FilmCard";
 import Styles from "./FilmsList.module.css";
 
 const FilmsList = () => {
-  const {
-    fetchMoreFilms,
-    films,
-    showLoadMore,
-    sortByPopularity,
-    sortByVote
-  } = useContext(FilmsContext);
+  const { films, sortByPopularity, sortByVote } = useContext(FilmsContext);
 
   return (
     <div className={Styles.container}>
@@ -49,14 +43,6 @@ const FilmsList = () => {
           <FilmCard key={index} film={film} />
         ))}
       </div>
-      {showLoadMore && (
-        <button
-          onClick={() => fetchMoreFilms()}
-          className={cx(Styles.btn, Styles.primaryBtn, Styles.loadMoreBtn)}
-        >
-          Load more
-        </button>
-      )}
     </div>
   );
 };

@@ -8,10 +8,6 @@ import fetchFilmDetails from "../../services/fetchFilmDetails";
 import { chunkArray } from "../../utils/chunkArray";
 
 const FilmsProvider = ({ children }) => {
-  const [chunks, setChunks] = useState([]);
-  const [lastLoadedChunk, setLastLoadedChunk] = useState(null);
-  const [showLoadMore, setShowLoadMore] = useState(false);
-
   const [films, setFilms] = useState([]);
   const [isLoading, setIsLoading] = useState(true);
   const [hasFailed, setHasFailed] = useState(false);
@@ -20,7 +16,6 @@ const FilmsProvider = ({ children }) => {
     async function fetchFilms() {
       try {
         setFilms(await getFilms());
-        showLoadMoreBtnAfterTimeout();
       } catch (e) {
         setHasFailed(true);
       } finally {
@@ -33,19 +28,12 @@ const FilmsProvider = ({ children }) => {
 
   const getFilms = async () => {
     const filmsFromPortugal = await fetchFilmsInPortugal();
-
-    const chunkSize = 10;
-    const chunkedArray = chunkArray(filmsFromPortugal, chunkSize);
-
-    setChunks(chunkedArray);
-    setLastLoadedChunk(0);
-
-    const filmsWithMoreInfo = await fetchMoreInfoOfChunk(chunkedArray[0]);
+    const filmsWithMoreInfo = await fetchMoreInfoFromTmdb(filmsFromPortugal);
 
     return filmsWithMoreInfo;
   };
 
-  const fetchMoreInfoOfChunk = async films => {
+  const fetchMoreInfoFromTmdb = async films => {
     return Promise.all(
       films.map(async film => {
         if (!film.originalTitle && !film.portugueseTitle) {
@@ -70,28 +58,6 @@ const FilmsProvider = ({ children }) => {
     const filmWithMoreDetails = await fetchFilmDetails(film.id);
 
     return filmWithMoreDetails;
-  };
-
-  const fetchMoreFilms = async () => {
-    const isPenultimateChunk = chunks.length - lastLoadedChunk === 2;
-    const nextChunkIndex = lastLoadedChunk + 1;
-
-    setShowLoadMore(false);
-
-    const nextChunk = await fetchMoreInfoOfChunk(chunks[nextChunkIndex]);
-
-    setLastLoadedChunk(nextChunkIndex);
-    setFilms(prevFilms => prevFilms.concat(nextChunk));
-
-    if (!isPenultimateChunk) {
-      showLoadMoreBtnAfterTimeout();
-    }
-  };
-
-  const showLoadMoreBtnAfterTimeout = () => {
-    setTimeout(() => {
-      setShowLoadMore(true);
-    }, 1000);
   };
 
   const sortByVote = () => {
@@ -121,11 +87,9 @@ const FilmsProvider = ({ children }) => {
   return (
     <FilmsContext.Provider
       value={{
-        fetchMoreFilms,
         films,
         hasFailed,
         isLoading,
-        showLoadMore,
         sortByPopularity,
         sortByVote
       }}
