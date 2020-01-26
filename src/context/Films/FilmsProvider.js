@@ -34,7 +34,7 @@ const FilmsProvider = ({ children }) => {
   const getFilms = async () => {
     const filmsFromPortugal = await fetchFilmsInPortugal();
 
-    const chunkSize = 8;
+    const chunkSize = 10;
     const chunkedArray = chunkArray(filmsFromPortugal, chunkSize);
 
     setChunks(chunkedArray);
@@ -94,14 +94,40 @@ const FilmsProvider = ({ children }) => {
     }, 1000);
   };
 
+  const sortByVote = () => {
+    const sortedFilmsByVote = films.sort((a, b) => {
+      if (!a || !b || !a.vote_average || !b.vote_average) {
+        return 0;
+      }
+
+      return b.vote_average - a.vote_average;
+    });
+
+    setFilms([...sortedFilmsByVote]);
+  };
+
+  const sortByPopularity = () => {
+    const sortedFilmsByPopularity = films.sort((a, b) => {
+      if (!a || !b || !a.popularity || !b.popularity) {
+        return 0;
+      }
+
+      return b.popularity - a.popularity;
+    });
+
+    setFilms([...sortedFilmsByPopularity]);
+  };
+
   return (
     <FilmsContext.Provider
       value={{
-        films,
-        isLoading,
-        hasFailed,
         fetchMoreFilms,
-        showLoadMore
+        films,
+        hasFailed,
+        isLoading,
+        showLoadMore,
+        sortByPopularity,
+        sortByVote
       }}
     >
       {children}
