@@ -5,7 +5,7 @@ import FilmCard from "../FilmCard";
 import Styles from "./FilmsList.module.css";
 
 const FilmsList = () => {
-  const { films, sortByPopularity, sortByVote } = useContext(FilmsContext);
+  const { films, sortBy } = useContext(FilmsContext);
 
   return (
     <div className={Styles.container}>
@@ -16,7 +16,7 @@ const FilmsList = () => {
           </button>
           <div class={Styles.dropdownContent}>
             <button
-              onClick={() => sortByPopularity()}
+              onClick={() => sortBy("popularity")}
               className={cx(
                 Styles.btn,
                 Styles.secondaryBtn,
@@ -26,7 +26,7 @@ const FilmsList = () => {
               Sort by popularity
             </button>
             <button
-              onClick={() => sortByVote()}
+              onClick={() => sortBy("vote_average")}
               className={cx(
                 Styles.btn,
                 Styles.secondaryBtn,

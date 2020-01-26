@@ -60,28 +60,16 @@ const FilmsProvider = ({ children }) => {
     return filmWithMoreDetails;
   };
 
-  const sortByVote = () => {
-    const sortedFilmsByVote = films.sort((a, b) => {
-      if (!a || !b || !a.vote_average || !b.vote_average) {
+  const sortBy = field => {
+    const sortedFilms = films.sort((a, b) => {
+      if (!a || !b || !a[field] || !b[field]) {
         return 0;
       }
 
-      return b.vote_average - a.vote_average;
+      return b[field] - a[field];
     });
 
-    setFilms([...sortedFilmsByVote]);
-  };
-
-  const sortByPopularity = () => {
-    const sortedFilmsByPopularity = films.sort((a, b) => {
-      if (!a || !b || !a.popularity || !b.popularity) {
-        return 0;
-      }
-
-      return b.popularity - a.popularity;
-    });
-
-    setFilms([...sortedFilmsByPopularity]);
+    setFilms([...sortedFilms]);
   };
 
   return (
@@ -90,8 +78,7 @@ const FilmsProvider = ({ children }) => {
         films,
         hasFailed,
         isLoading,
-        sortByPopularity,
-        sortByVote
+        sortBy
       }}
     >
       {children}
