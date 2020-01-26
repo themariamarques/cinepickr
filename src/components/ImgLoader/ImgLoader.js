@@ -8,6 +8,7 @@ const ImageLoader = ({ className, src, filmTitle }) => {
   return (
     <img
       alt={`${filmTitle} Poster`}
+      loading="lazy"
       className={cx(className, Styles.img, { [Styles.isLoaded]: isLoaded })}
       src={src}
       onLoad={() => {
