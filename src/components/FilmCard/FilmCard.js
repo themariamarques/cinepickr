@@ -3,7 +3,6 @@ import Poster from "../Poster";
 import Ratings from "../Ratings";
 import FilmCardInfo from "../FilmCardInfo";
 import Styles from "./FilmCard.module.css";
-import LazyLoad from "react-lazy-load";
 
 const FilmCard = ({ film }) => {
   if (!film) {
@@ -11,13 +10,11 @@ const FilmCard = ({ film }) => {
   }
 
   return (
-    <LazyLoad offsetVertical={500} debounce={false}>
-      <div className={Styles.card} key={film.id}>
-        <Poster film={film} />
-        <Ratings film={film} />
-        <FilmCardInfo film={film} />
-      </div>
-    </LazyLoad>
+    <div className={Styles.card} key={film.id}>
+      <Poster film={film} />
+      <Ratings film={film} />
+      <FilmCardInfo film={film} />
+    </div>
   );
 };
 
