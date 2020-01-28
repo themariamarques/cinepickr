@@ -1,11 +1,12 @@
 import FilmsContext from "./FilmsContext";
 import PropTypes from "prop-types";
 import React, { useState, useEffect } from "react";
-import searchFilm from "../../services/searchFilm";
+import searchFilmInTmdb from "../../services/searchFilmInTmdb";
 import fetchFilmsInPortugal from "../../services/fetchFilmsInPortugal";
-import fetchFilmsInPortugalMock from "../../mocks/fetchFilmsInPortugalMock";
-import fetchFilmDetails from "../../services/fetchFilmDetails";
-import { chunkArray } from "../../utils/chunkArray";
+// import fetchFilmsInPortugal from "../../mocks/fetchFilmsInPortugal";
+import fetchTmdbDetails from "../../services/fetchTmdbDetails";
+import fetchOmdbDetails from "../../services/fetchOmdbDetails";
+// import fetchOmdbDetails from "../../mocks/fetchOmdbDetails";
 
 const FilmsProvider = ({ children }) => {
   const [films, setFilms] = useState([]);
@@ -49,15 +50,20 @@ const FilmsProvider = ({ children }) => {
   };
 
   const searchForFilmInTmdb = async (title, year) => {
-    const film = await searchFilm(title, year);
+    const film = await searchFilmInTmdb(title, year);
 
     if (!film || !film.id) {
       return null;
     }
 
-    const filmWithMoreDetails = await fetchFilmDetails(film.id);
+    const filmWithMoreDetails = await fetchTmdbDetails(film.id);
+    const filmOmdbDetails = await fetchOmdbDetails(filmWithMoreDetails.imdb_id);
 
-    return filmWithMoreDetails;
+    return {
+      ...filmWithMoreDetails,
+      imdbRating: filmOmdbDetails.imdbRating,
+      omdbRatings: filmOmdbDetails.Ratings
+    };
   };
 
   const sortBy = field => {

@@ -11,7 +11,7 @@ const FilmsSorter = () => {
     <div className={Styles.container}>
       <div className={Styles.dropdownContainer}>
         <button
-          class={cx(
+          className={cx(
             ButtonStyles.btn,
             ButtonStyles.primaryBtn,
             Styles.dropdownBtn
@@ -19,7 +19,17 @@ const FilmsSorter = () => {
         >
           Sort by
         </button>
-        <div class={Styles.dropdownContent}>
+        <div className={Styles.dropdownContent}>
+          <button
+            onClick={() => sortBy("imdbRating")}
+            className={cx(
+              ButtonStyles.btn,
+              ButtonStyles.secondaryBtn,
+              Styles.dropdownContentBtn
+            )}
+          >
+            Imdb Rating
+          </button>
           <button
             onClick={() => sortBy("vote_average")}
             className={cx(
