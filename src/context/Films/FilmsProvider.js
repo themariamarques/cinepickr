@@ -72,6 +72,14 @@ const FilmsProvider = ({ children }) => {
         return 0;
       }
 
+      if (isNaN(a[field])) {
+        return 1;
+      }
+
+      if (isNaN(b[field])) {
+        return -1;
+      }
+
       return b[field] - a[field];
     });
 
