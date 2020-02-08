@@ -1,4 +1,13 @@
-.link {
+.modalOverlay {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.posterOverlay {
   height: 100%;
   width: 100%;
   position: absolute;
@@ -11,7 +20,7 @@
   z-index: 1;
 }
 
-.link:hover {
+.posterOverlay:hover {
   opacity: 1;
   background-image: linear-gradient(
     135deg,
