@@ -1,7 +1,7 @@
 import FilmsContext from "./FilmsContext";
 import PropTypes from "prop-types";
 import React, { useState, useEffect } from "react";
-import searchFilmInTmdb from "../../services/searchFilmInTmdb";
+import fetchFilmInTmdb from "../../services/fetchFilmInTmdb";
 import fetchFilmsInPortugal from "../../services/fetchFilmsInPortugal";
 // import fetchFilmsInPortugal from "../../mocks/fetchFilmsInPortugal";
 import fetchTmdbDetails from "../../services/fetchTmdbDetails";
@@ -50,7 +50,7 @@ const FilmsProvider = ({ children }) => {
   };
 
   const searchForFilmInTmdb = async (title, year) => {
-    const film = await searchFilmInTmdb(title, year);
+    const film = await fetchFilmInTmdb(title, year);
 
     if (!film || !film.id) {
       return null;
