@@ -1,0 +1,25 @@
+.btn {
+  height: 2.4rem;
+  font-size: 1.2rem;
+  border: none;
+}
+
+.primaryBtn {
+  background-color: #567;
+  color: #bcd;
+  border-radius: 0.3rem;
+}
+
+.primaryBtn:hover {
+  background-color: #414e5a;
+}
+
+.secondaryBtn {
+  background-color: #567;
+  color: #14151b;
+  border-radius: 0;
+}
+
+.secondaryBtn:hover {
+  color: #bcd;
+}

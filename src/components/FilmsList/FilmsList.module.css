@@ -1,0 +1,43 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.content {
+  width: 100%;
+  display: grid;
+  animation: fadeIn 1s;
+  animation-fill-mode: forwards;
+  grid-template-columns: repeat(auto-fill, minmax(13.5rem, 1fr));
+  grid-gap: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .content {
+    width: 80%;
+    grid-template-columns: repeat(auto-fill, minmax(17.5rem, 1fr));
+  }
+}
+
+@media screen and(min-width: 1000px) {
+  .content {
+    grid-gap: 3rem;
+  }
+}
+
+@media screen and(min-width: 2400px) {
+  .content {
+    grid-gap: 5rem;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

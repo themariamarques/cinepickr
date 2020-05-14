@@ -1,0 +1,36 @@
+.isLongList {
+  max-height: 4.5rem;
+  overflow: hidden;
+  position: relative;
+  transition: max-height 0.3s ease-in-out;
+}
+
+.isLongList:hover {
+  overflow: visible;
+  max-height: 10rem;
+}
+
+.isLongList:hover:before {
+  opacity: 0;
+}
+
+.isLongList:before {
+  transition: opacity 0.3s ease-in-out;
+  opacity: 1;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 5.5rem;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0), #14151b);
+}
+
+.pill {
+  font-size: 1.2rem;
+  background-color: #606a70;
+  display: inline-flex;
+  margin: 0.3rem 0.5rem 0.3rem 0;
+  border-radius: 0.5rem;
+  padding: 0.3rem;
+}

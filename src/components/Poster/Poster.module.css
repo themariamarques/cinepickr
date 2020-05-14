@@ -1,0 +1,11 @@
+.container {
+  border: solid 0.5rem white;
+  width: 100%;
+  position: relative;
+  background-color: #121317;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}

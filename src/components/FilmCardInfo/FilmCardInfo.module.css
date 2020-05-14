@@ -1,0 +1,37 @@
+.container {
+  width: 100%;
+}
+
+.title {
+  text-transform: uppercase;
+  font-weight: 500;
+  margin: 0.5rem 0 0.2rem 0;
+}
+
+.title .ptTitle {
+  display: none;
+}
+
+.title:hover .ptTitle {
+  display: inline;
+}
+
+.title:hover .enTitle {
+  display: none;
+}
+
+.directorsAndYear {
+  margin-bottom: 0.3rem;
+}
+
+.directors {
+  display: inline-flex;
+  font-size: 1.2rem;
+  margin-right: 0.5rem;
+}
+
+.year {
+  display: inline-flex;
+  font-size: 1.2rem;
+  color: #606a70;
+}

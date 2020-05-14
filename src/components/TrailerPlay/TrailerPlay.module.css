@@ -1,0 +1,33 @@
+.modalOverlay {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.posterOverlay {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  opacity: 0;
+  background-size: 400% 400%;
+  transition: 0.5s all;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+
+.posterOverlay:hover {
+  opacity: 1;
+  background-image: linear-gradient(
+    135deg,
+    rgba(139, 198, 236, 0.5) 0%,
+    rgba(149, 153, 226, 0.5) 100%
+  );
+
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+}

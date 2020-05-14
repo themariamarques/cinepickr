@@ -1,0 +1,17 @@
+:root {
+  --imdb-color: #f5c517;
+}
+
+.container {
+  position: absolute;
+  top: 0;
+  right: -0.5rem;
+  background-color: var(--imdb-color);
+  color: black;
+  border: solid 0.1rem var(--imdb-color);
+  border-bottom-left-radius: 0.3rem;
+  padding: 0.3rem;
+  z-index: 2;
+  font-weight: 600;
+  text-decoration: none;
+}
