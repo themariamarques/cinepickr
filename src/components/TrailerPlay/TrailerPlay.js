@@ -4,9 +4,8 @@ import Styles from "./TrailerPlay.module.css";
 import Modal from "react-modal";
 import YouTube from "react-youtube";
 
-const TrailerPlay = ({ videos }) => {
+const TrailerPlay = ({ trailer }) => {
   const [isTrailerModalOpen, setTrailerModalOpen] = useState(false);
-  const trailer = findTrailer(videos);
 
   const customStyles = {
     content: {
@@ -52,16 +51,6 @@ const TrailerPlay = ({ videos }) => {
         <IconPlay />
       </div>
     </>
-  );
-};
-
-const findTrailer = videos => {
-  return (
-    videos &&
-    videos.results &&
-    videos.results.find(
-      video => video.site === "YouTube" && video.type === "Trailer"
-    )
   );
 };
 

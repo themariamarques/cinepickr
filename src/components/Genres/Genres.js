@@ -1,17 +1,16 @@
 import React from "react";
 import Styles from "./Genres.module.css";
-import cx from "classnames";
 
 const Genres = ({ genres }) => {
-  const isLongList = genres.length > 3;
-
   return (
-    <div className={cx(Styles.container, { [Styles.isLongList]: isLongList })}>
-      {genres.map((genre, index) => (
-        <p className={Styles.pill} key={index}>
-          {genre.name}
-        </p>
-      ))}
+    <div className={Styles.container}>
+      <p>
+        {genres.map((genre, index) => {
+          const isLastElement = index === genres.length - 1;
+
+          return `${genre.name}${!isLastElement ? " / " : ""}`;
+        })}
+      </p>
     </div>
   );
 };

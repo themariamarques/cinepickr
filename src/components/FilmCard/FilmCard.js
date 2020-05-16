@@ -12,8 +12,8 @@ const FilmCard = ({ film }) => {
   return (
     <div className={Styles.card} key={film.id}>
       <Poster film={film} />
-      <Ratings film={film} />
       <FilmCardInfo film={film} />
+      <Ratings film={film} />
     </div>
   );
 };

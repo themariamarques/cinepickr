@@ -17,38 +17,38 @@ const FilmsSorter = () => {
             Styles.dropdownBtn
           )}
         >
-          Sort by
+          Sort by Rating
         </button>
         <div className={Styles.dropdownContent}>
           <button
-            onClick={() => sortBy("imdbRating")}
+            onClick={() => sortBy("Internet Movie Database")}
             className={cx(
               ButtonStyles.btn,
               ButtonStyles.secondaryBtn,
               Styles.dropdownContentBtn
             )}
           >
-            Imdb Rating
+            Imdb
           </button>
           <button
-            onClick={() => sortBy("vote_average")}
+            onClick={() => sortBy("Rotten Tomatoes")}
             className={cx(
               ButtonStyles.btn,
               ButtonStyles.secondaryBtn,
               Styles.dropdownContentBtn
             )}
           >
-            Tmbd Rating
+            Rotten Tomatoes
           </button>
           <button
-            onClick={() => sortBy("popularity")}
+            onClick={() => sortBy("Metacritic")}
             className={cx(
               ButtonStyles.btn,
               ButtonStyles.secondaryBtn,
               Styles.dropdownContentBtn
             )}
           >
-            Tmbd Popularity
+            Metacritic
           </button>
         </div>
       </div>
