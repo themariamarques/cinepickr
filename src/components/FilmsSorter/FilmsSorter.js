@@ -1,57 +1,28 @@
 import React, { useContext } from "react";
 import { FilmsContext } from "../../context/Films";
-import cx from "classnames";
-import ButtonStyles from "../ButtonStyles.module.css";
+import { ratingSources } from "../../constants/ratingSources";
 import Styles from "./FilmsSorter.module.scss";
+import { Select } from "antd";
+const { Option } = Select;
 
 const FilmsSorter = () => {
   const { sortBy } = useContext(FilmsContext);
 
+  const handleChange = value => {
+    sortBy(value);
+  };
+
   return (
     <div className={Styles.container}>
-      <div className={Styles.dropdownContainer}>
-        <button
-          className={cx(
-            ButtonStyles.btn,
-            ButtonStyles.primaryBtn,
-            Styles.dropdownBtn
-          )}
-        >
-          Sort by Rating
-        </button>
-        <div className={Styles.dropdownContent}>
-          <button
-            onClick={() => sortBy("Internet Movie Database")}
-            className={cx(
-              ButtonStyles.btn,
-              ButtonStyles.secondaryBtn,
-              Styles.dropdownContentBtn
-            )}
-          >
-            Imdb
-          </button>
-          <button
-            onClick={() => sortBy("Rotten Tomatoes")}
-            className={cx(
-              ButtonStyles.btn,
-              ButtonStyles.secondaryBtn,
-              Styles.dropdownContentBtn
-            )}
-          >
-            Rotten Tomatoes
-          </button>
-          <button
-            onClick={() => sortBy("Metacritic")}
-            className={cx(
-              ButtonStyles.btn,
-              ButtonStyles.secondaryBtn,
-              Styles.dropdownContentBtn
-            )}
-          >
-            Metacritic
-          </button>
-        </div>
-      </div>
+      <Select
+        defaultValue="Sort by rating"
+        style={{ width: 155, height: 32 }}
+        onChange={handleChange}
+      >
+        {ratingSources.map(source => (
+          <Option value={source.name}>{source.shortName || source.name}</Option>
+        ))}
+      </Select>
     </div>
   );
 };

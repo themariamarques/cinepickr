@@ -35,7 +35,7 @@ const Ratings = ({ film }) => {
     return (
       <>
         <span className={Styles.icon}>{source.icon}</span>
-        <span>{rating.Value}</span>
+        <p>{rating.Value}</p>
       </>
     );
   };
