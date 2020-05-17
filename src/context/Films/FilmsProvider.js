@@ -11,21 +11,50 @@ const FilmsProvider = ({ children }) => {
     return () => null;
   }, []);
 
-  const sortBy = field => {
-    const sortedFilms = films.sort((a, b) => {
-      if (!a || !b || !a[field] || !b[field]) {
+  const sortBy = source => {
+    const sortedFilms = films.sort((filmA, filmB) => {
+      const { omdbRatings: omdbRatingsA } = filmA;
+      const { omdbRatings: omdbRatingsB } = filmB;
+
+      const findSourceA = omdbRatingsA.find(
+        ratingSource => ratingSource.Source === source
+      );
+      const findSourceB = omdbRatingsB.find(
+        ratingSource => ratingSource.Source === source
+      );
+
+      if (!omdbRatingsA || !omdbRatingsB) {
         return 0;
       }
 
-      if (isNaN(a[field])) {
+      const normalizeValue = ratingSource => {
+        if (ratingSource.Source === "Internet Movie Database") {
+          return ratingSource.Value.split("/")[0];
+        }
+
+        if (ratingSource.Source === "Rotten Tomatoes") {
+          return ratingSource.Value.split("%")[0];
+        }
+
+        if (ratingSource.Source === "Metacritic") {
+          return ratingSource.Value.split("/")[0];
+        }
+
+        return false;
+      };
+
+      if (!findSourceA) {
         return 1;
       }
 
-      if (isNaN(b[field])) {
+      if (!findSourceB) {
         return -1;
       }
 
-      return b[field] - a[field];
+      const valueA = normalizeValue(findSourceA);
+      const valueB = normalizeValue(findSourceB);
+
+      return valueB - valueA;
     });
 
     setFilms([...sortedFilms]);

@@ -1,57 +1,28 @@
 import React, { useContext } from "react";
 import { FilmsContext } from "../../context/Films";
-import cx from "classnames";
-import ButtonStyles from "../ButtonStyles.module.css";
+import { ratingSources } from "../../constants/ratingSources";
 import Styles from "./FilmsSorter.module.scss";
+import { Select } from "antd";
+const { Option } = Select;
 
 const FilmsSorter = () => {
   const { sortBy } = useContext(FilmsContext);
 
+  const handleChange = value => {
+    sortBy(value);
+  };
+
   return (
     <div className={Styles.container}>
-      <div className={Styles.dropdownContainer}>
-        <button
-          className={cx(
-            ButtonStyles.btn,
-            ButtonStyles.primaryBtn,
-            Styles.dropdownBtn
-          )}
-        >
-          Sort by
-        </button>
-        <div className={Styles.dropdownContent}>
-          <button
-            onClick={() => sortBy("imdbRating")}
-            className={cx(
-              ButtonStyles.btn,
-              ButtonStyles.secondaryBtn,
-              Styles.dropdownContentBtn
-            )}
-          >
-            Imdb Rating
-          </button>
-          <button
-            onClick={() => sortBy("vote_average")}
-            className={cx(
-              ButtonStyles.btn,
-              ButtonStyles.secondaryBtn,
-              Styles.dropdownContentBtn
-            )}
-          >
-            Tmbd Rating
-          </button>
-          <button
-            onClick={() => sortBy("popularity")}
-            className={cx(
-              ButtonStyles.btn,
-              ButtonStyles.secondaryBtn,
-              Styles.dropdownContentBtn
-            )}
-          >
-            Tmbd Popularity
-          </button>
-        </div>
-      </div>
+      <Select
+        defaultValue="Sort by rating"
+        style={{ width: 155, height: 32 }}
+        onChange={handleChange}
+      >
+        {ratingSources.map(source => (
+          <Option value={source.name}>{source.shortName || source.name}</Option>
+        ))}
+      </Select>
     </div>
   );
 };

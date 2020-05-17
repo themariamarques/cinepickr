@@ -3,10 +3,14 @@ import IconPlay from "../IconPlay";
 import Styles from "./TrailerPlay.module.css";
 import Modal from "react-modal";
 import YouTube from "react-youtube";
+import { useMediaQuery } from "react-responsive";
 
-const TrailerPlay = ({ videos }) => {
+const TrailerPlay = ({ trailer }) => {
   const [isTrailerModalOpen, setTrailerModalOpen] = useState(false);
-  const trailer = findTrailer(videos);
+
+  const isDesktopOrLaptop = useMediaQuery({
+    query: "(min-width: 1224px)"
+  });
 
   const customStyles = {
     content: {
@@ -33,35 +37,33 @@ const TrailerPlay = ({ videos }) => {
     return null;
   }
 
+  const Component = isDesktopOrLaptop ? "div" : "a";
+
   return (
     <>
-      <Modal
-        isOpen={isTrailerModalOpen}
-        onRequestClose={() => setTrailerModalOpen(false)}
-        overlayClassName={Styles.modalOverlay}
-        style={customStyles}
-      >
-        <YouTube videoId={trailer.key} opts={opts} />
-      </Modal>
-      <div
+      {isDesktopOrLaptop && (
+        <Modal
+          isOpen={isTrailerModalOpen}
+          onRequestClose={() => setTrailerModalOpen(false)}
+          overlayClassName={Styles.modalOverlay}
+          style={customStyles}
+        >
+          <YouTube videoId={trailer.key} opts={opts} />
+        </Modal>
+      )}
+      <Component
         className={Styles.posterOverlay}
-        href={`https://www.youtube.com/watch?v=${trailer.key}`}
-        onClick={() => setTrailerModalOpen(true)}
-        role="button"
+        {...(!isDesktopOrLaptop && {
+          href: `https://www.youtube.com/watch?v=${trailer.key}`
+        })}
+        {...(isDesktopOrLaptop && {
+          onClick: () => setTrailerModalOpen(true),
+          role: "button"
+        })}
       >
         <IconPlay />
-      </div>
+      </Component>
     </>
-  );
-};
-
-const findTrailer = videos => {
-  return (
-    videos &&
-    videos.results &&
-    videos.results.find(
-      video => video.site === "YouTube" && video.type === "Trailer"
-    )
   );
 };
 
