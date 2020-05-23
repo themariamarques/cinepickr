@@ -14,6 +14,18 @@
   grid-gap: 2rem;
 }
 
+.topFilters {
+  width: 100%;
+  display: flex;
+  padding-bottom: 2rem;
+}
+
+@media screen and (min-width: 768px) {
+  .topFilters {
+    width: 80%;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .content {
     width: 80%;

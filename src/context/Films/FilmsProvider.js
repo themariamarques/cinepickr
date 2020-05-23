@@ -11,6 +11,20 @@ const FilmsProvider = ({ children }) => {
     return () => null;
   }, []);
 
+  const filterByGenre = genres => {
+    const filteredList = filmsFullDetail.filter(film => {
+      let shouldIncludeFilmInFilteredList = true;
+      genres.map(genre => {
+        if (!film.genres.some(el => el.name === genre)) {
+          shouldIncludeFilmInFilteredList = false;
+        }
+      });
+      return shouldIncludeFilmInFilteredList;
+    });
+
+    setFilms(filteredList);
+  };
+
   const sortBy = source => {
     const sortedFilms = films.sort((filmA, filmB) => {
       const { omdbRatings: omdbRatingsA } = filmA;
@@ -64,6 +78,7 @@ const FilmsProvider = ({ children }) => {
     <FilmsContext.Provider
       value={{
         films,
+        filterByGenre,
         sortBy
       }}
     >
