@@ -16,7 +16,7 @@ const FilmsList = () => {
       </div>
       <div className={Styles.content}>
         {films.map(film => (
-          <FilmCard key={film.id} film={film} />
+          <FilmCard key={`list_film_${film.id}`} film={film} />
         ))}
       </div>
     </div>
