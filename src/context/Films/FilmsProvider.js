@@ -5,9 +5,27 @@ import filmsFullDetail from "../../data/filmsFullDetail.json";
 
 const FilmsProvider = ({ children }) => {
   const [films, setFilms] = useState([]);
+  const [availableGenres, setAvailableGenres] = useState([]);
+
+  const setGenresToSelect = films => {
+    let availableGenresIds = [];
+
+    films.map(film => {
+      film.genres.map(genre => {
+        if (availableGenresIds.includes(genre.id)) {
+          return null;
+        }
+
+        availableGenresIds.push(genre.id);
+      });
+    });
+
+    setAvailableGenres(availableGenresIds);
+  };
 
   useEffect(() => {
     setFilms(filmsFullDetail);
+    setGenresToSelect(filmsFullDetail);
     return () => null;
   }, []);
 
@@ -23,6 +41,7 @@ const FilmsProvider = ({ children }) => {
     });
 
     setFilms(filteredList);
+    setGenresToSelect(filteredList);
   };
 
   const sortBy = source => {
@@ -77,6 +96,7 @@ const FilmsProvider = ({ children }) => {
   return (
     <FilmsContext.Provider
       value={{
+        availableGenres,
         films,
         filterByGenre,
         sortBy

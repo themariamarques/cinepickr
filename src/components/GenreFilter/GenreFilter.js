@@ -6,7 +6,7 @@ import { Select } from "antd";
 const { Option } = Select;
 
 const GenreFilter = () => {
-  const { filterByGenre } = useContext(FilmsContext);
+  const { filterByGenre, availableGenres } = useContext(FilmsContext);
 
   const handleChange = value => {
     filterByGenre(value);
@@ -20,7 +20,9 @@ const GenreFilter = () => {
       onChange={handleChange}
     >
       {genres.map(item => (
-        <Option key={item.name}>{item.name}</Option>
+        <Option key={item.name} disabled={!availableGenres.includes(item.id)}>
+          {item.name}
+        </Option>
       ))}
     </Select>
   );
