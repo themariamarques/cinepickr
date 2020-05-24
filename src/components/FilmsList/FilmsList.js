@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { FilmsContext } from "../../context/Films";
 import FilmCard from "../FilmCard";
 import GenreFilter from "../GenreFilter";
-import RatingsSorter from "../RatingsSorter";
+import SortBy from "../SortBy";
 import Styles from "./FilmsList.module.css";
 
 const FilmsList = () => {
@@ -12,7 +12,7 @@ const FilmsList = () => {
     <div className={Styles.container}>
       <div className={Styles.topFilters}>
         <GenreFilter />
-        <RatingsSorter />
+        <SortBy />
       </div>
       <div className={Styles.content}>
         {films.map(film => (

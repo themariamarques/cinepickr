@@ -10,7 +10,8 @@ const FilmCardInfo = ({ film }) => {
     translations,
     release_date: date,
     original_title: originalTitle,
-    original_language: originalLanguage
+    original_language: originalLanguage,
+    runtime
   } = film;
 
   const getPtTitle = getPortugueseTitle(
@@ -32,6 +33,7 @@ const FilmCardInfo = ({ film }) => {
         {date && <p className={Styles.year}>({extractYear(date)})</p>}
       </div>
       {genres && <Genres genres={genres} />}
+      {runtime > 0 && <p className={Styles.runtime}>{runtime}m</p>}
     </div>
   );
 };

@@ -4,7 +4,7 @@ import { ratingSources } from "../../constants/ratingSources";
 import { Select } from "antd";
 const { Option } = Select;
 
-const RatingsSorter = () => {
+const SortBy = () => {
   const { sortBy } = useContext(FilmsContext);
 
   const handleChange = value => {
@@ -13,7 +13,7 @@ const RatingsSorter = () => {
 
   return (
     <Select
-      defaultValue="Sort by rating"
+      defaultValue="Sort by"
       style={{ width: 155, height: 32 }}
       onChange={handleChange}
     >
@@ -22,8 +22,14 @@ const RatingsSorter = () => {
           {source.shortName || source.name}
         </Option>
       ))}
+      <Option key="shortruntime" value="shortruntime">
+        Shortest Runtime
+      </Option>
+      <Option key="longruntime" value="longruntime">
+        Longest Runtime
+      </Option>
     </Select>
   );
 };
 
-export default RatingsSorter;
+export default SortBy;
