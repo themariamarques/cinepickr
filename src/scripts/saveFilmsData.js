@@ -13,7 +13,7 @@ const saveFilmsData = async () => {
     filmsFullDetail,
     { spaces: 2 },
     err => {
-      console.error("error ", err);
+      err && console.error(`error in saving filmsFullDetail: ${err}`);
     }
   );
 };

@@ -1,4 +1,4 @@
-const IS_MOCK = true;
+const IS_MOCK = false;
 const mockHtml = require("../mocks/mockFilmspot");
 
 const request = require("request");
@@ -35,7 +35,7 @@ request("https://filmspot.pt/filmes/", function(error, response, html) {
       films,
       { spaces: 2 },
       err => {
-        console.error("error ", err);
+        err && console.error(`error in saving filmsInPortugal: ${err}`);
       }
     );
   } else {

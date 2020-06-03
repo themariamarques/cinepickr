@@ -16,7 +16,7 @@ const fetchOmdbDetails = async id => {
 
     return response;
   } catch (err) {
-    console.error("error ", err);
+    console.error("error in fetching omdb details: ", err);
   }
 };
 
