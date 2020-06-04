@@ -1,5 +1,4 @@
-const TMBD_API_KEY = "123";
-const OMDB_API_KEY = "123";
+const { tmdbKey, omdbKey } = require("./apiKeys");
 
 const requestsBaseOptions = {
   headers: {
@@ -8,10 +7,10 @@ const requestsBaseOptions = {
   json: true
 };
 const tmdbApiKey = {
-  api_key: TMBD_API_KEY
+  api_key: tmdbKey
 };
 const omdbApiKey = {
-  apikey: OMDB_API_KEY
+  apikey: omdbKey
 };
 
 module.exports = {

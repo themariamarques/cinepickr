@@ -8,9 +8,11 @@ const fetchOmdbDetails = require("./omdbApi.js");
 const saveFilmsData = async () => {
   const filmsFullDetail = await fetchMoreInfoFromTmdb(filmsInPortugal);
 
+  const filterOutResults = filmsFullDetail.filter(item => !!item);
+
   jsonfile.writeFile(
     "./src/data/filmsFullDetail.json",
-    filmsFullDetail,
+    filterOutResults,
     { spaces: 2 },
     err => {
       err && console.error(`error in saving filmsFullDetail: ${err}`);
