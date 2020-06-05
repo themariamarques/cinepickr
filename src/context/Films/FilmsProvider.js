@@ -50,10 +50,26 @@ const FilmsProvider = ({ children }) => {
         return sortByRuntime(value, filmA, filmB);
       }
 
+      if (value === "letterboxd") {
+        return sortByLetterboxdRating(filmA, filmB);
+      }
+
       return sortByRatingSource(value, filmA, filmB);
     });
 
     setFilms([...sortedFilms]);
+  };
+
+  const sortByLetterboxdRating = (filmA, filmB) => {
+    if (filmA.letterboxdRating === "") {
+      return 1;
+    }
+
+    if (filmB.letterboxdRating === "") {
+      return -1;
+    }
+
+    return filmB.letterboxdRating - filmA.letterboxdRating;
   };
 
   const sortByRatingSource = (value, filmA, filmB) => {

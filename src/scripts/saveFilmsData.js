@@ -4,6 +4,7 @@ const jsonfile = require("jsonfile");
 
 const { fetchFilmInTmdb, fetchTmdbDetails } = require("./tmdbApi.js");
 const fetchOmdbDetails = require("./omdbApi.js");
+const scrapeLetterboxd = require("./scrapeLetterboxd.js");
 
 const saveFilmsData = async () => {
   const filmsFullDetail = await fetchMoreInfoFromTmdb(filmsInPortugal);
@@ -58,12 +59,15 @@ const searchForFilmInTmdb = async (title, year, lang) => {
     filmOmdbDetails = await fetchOmdbDetails(filmWithMoreDetails.imdb_id);
   }
 
+  const letterboxdRating = await scrapeLetterboxd(film.id);
+
   return {
     ...filmWithMoreDetails,
     ...(filmHasImdbId && {
       imdbRating: filmOmdbDetails.imdbRating,
       omdbRatings: filmOmdbDetails.Ratings
-    })
+    }),
+    letterboxdRating
   };
 };
 

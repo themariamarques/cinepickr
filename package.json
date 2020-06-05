@@ -11,6 +11,7 @@
     "classnames": "^2.2.6",
     "jsonfile": "^6.0.1",
     "node-sass": "^4.13.1",
+    "puppeteer": "^3.3.0",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "react-modal": "^3.11.1",
@@ -25,8 +26,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "scrape": "node src/scripts/scrape.js & node src/scripts/saveFilmsData.js",
-    "backdrops": "node src/scripts/saveBackdropData.js"
+    "scrape": "node src/scripts/scrapeFilmsInPortugal.js & node src/scripts/saveFilmsData.js",
+    "backdrops": "node src/scripts/saveBackdropData.js",
+    "scrapeL": "node src/scripts/scrapeLetterboxd.js"
   },
   "eslintConfig": {
     "extends": "react-app"

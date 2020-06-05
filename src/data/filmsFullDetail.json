@@ -24,7 +24,7 @@
     "original_language": "pt",
     "original_title": "'Non', ou A vã glória de mandar",
     "overview": "Episodes from entire military history of Portugal are told through flashbacks as a professorish soldier recounts them while marching through a Portuguese African colony in 1973.",
-    "popularity": 2.042,
+    "popularity": 2.859,
     "poster_path": "/o2YpSoNixn9qcjjF504VEzre4kQ.jpg",
     "production_companies": [
       {
@@ -444,7 +444,8 @@
         "Source": "Internet Movie Database",
         "Value": "7.1/10"
       }
-    ]
+    ],
+    "letterboxdRating": "3.8"
   },
   {
     "adult": false,
@@ -476,7 +477,7 @@
     "original_language": "en",
     "original_title": "2001: A Space Odyssey",
     "overview": "Humanity finds a mysterious object buried beneath the lunar surface and sets off to find its origins with the help of HAL 9000, the world's most advanced super computer.",
-    "popularity": 27.822,
+    "popularity": 29.224,
     "poster_path": "/zmmYdPa8Lxx999Af9vnVP4XQ1V6.jpg",
     "production_companies": [
       {
@@ -520,7 +521,7 @@
     "title": "2001: A Space Odyssey",
     "video": false,
     "vote_average": 8.1,
-    "vote_count": 7270,
+    "vote_count": 7278,
     "videos": {
       "results": [
         {
@@ -1946,7 +1947,8 @@
         "Source": "Metacritic",
         "Value": "84/100"
       }
-    ]
+    ],
+    "letterboxdRating": "4.3"
   },
   {
     "adult": false,
@@ -1965,7 +1967,7 @@
     "original_language": "en",
     "original_title": "J.T. LeRoy",
     "overview": "A young woman named Savannah Knoop spends six years pretending to be a transgender writer named JT Leroy, the made-up literary persona of her sister-in-law.",
-    "popularity": 5.529,
+    "popularity": 7.741,
     "poster_path": "/43ffZhMCWQhzMneGP4kDWoPV48X.jpg",
     "production_companies": [
       {
@@ -2604,7 +2606,8 @@
         "Source": "Metacritic",
         "Value": "55/100"
       }
-    ]
+    ],
+    "letterboxdRating": "2.8"
   },
   {
     "adult": false,
@@ -2636,7 +2639,7 @@
     "original_language": "en",
     "original_title": "A Shaun the Sheep Movie: Farmageddon",
     "overview": "When an alien with amazing powers crash-lands near Mossy Bottom Farm, Shaun the Sheep goes on a mission to shepherd the intergalactic visitor home before a sinister organization can capture her.",
-    "popularity": 11.659,
+    "popularity": 14.82,
     "poster_path": "/p08FoXVFgcRm5QZBaGj0VKa2W2Y.jpg",
     "production_companies": [
       {
@@ -3411,7 +3414,8 @@
         "Source": "Metacritic",
         "Value": "79/100"
       }
-    ]
+    ],
+    "letterboxdRating": "3.5"
   },
   {
     "adult": false,
@@ -3430,7 +3434,7 @@
     "original_language": "pt",
     "original_title": "A Vida Invisível",
     "overview": "Rio de Janeiro, Brazil, 1950. In the conservative home of the Gusmão family, Eurídice and Guida are two inseparable sisters who support each other. While Guida can share with her younger sister the details of her romantic adventures, Eurídice finds in her older sister the encouragement she needs to pursue her dream of becoming a professional pianist.",
-    "popularity": 10.006,
+    "popularity": 10.315,
     "poster_path": "/dHmy5vHcEfeBfy72sWxAdeSBLmn.jpg",
     "production_companies": [
       {
@@ -4400,7 +4404,8 @@
         "Source": "Metacritic",
         "Value": "81/100"
       }
-    ]
+    ],
+    "letterboxdRating": "4.1"
   },
   {
     "adult": false,
@@ -4419,7 +4424,7 @@
     "original_language": "es",
     "original_title": "Escuela de Miedo",
     "overview": "An intelligent 15-year-old high school student is unexpectedly transferred to a boarding school where he opens a portal of monsters from another dimension.",
-    "popularity": 0.6,
+    "popularity": 0.763,
     "poster_path": "/iwWDHYlmiOXNBCsvhCDfccluLQK.jpg",
     "production_companies": [
       {
@@ -4631,7 +4636,8 @@
       ]
     },
     "imdbRating": "N/A",
-    "omdbRatings": []
+    "omdbRatings": [],
+    "letterboxdRating": ""
   },
   {
     "adult": false,
@@ -4658,7 +4664,7 @@
     "original_language": "pt",
     "original_title": "Bacurau",
     "overview": "Bacurau, a small town in the Brazilian sertão, mourns the loss of its matriarch, Carmelita, who lived to be 94. Days later, its inhabitants notice that their community has vanished from most maps.",
-    "popularity": 17.671,
+    "popularity": 19.415,
     "poster_path": "/l31rzdZ2fDwkB56YWotbqMCGzSh.jpg",
     "production_companies": [
       {
@@ -4713,12 +4719,12 @@
     "runtime": 132,
     "spoken_languages": [
       {
-        "iso_639_1": "es",
-        "name": "Español"
-      },
-      {
         "iso_639_1": "en",
         "name": "English"
+      },
+      {
+        "iso_639_1": "es",
+        "name": "Español"
       },
       {
         "iso_639_1": "pt",
@@ -4730,7 +4736,7 @@
     "title": "Bacurau",
     "video": false,
     "vote_average": 8.1,
-    "vote_count": 462,
+    "vote_count": 465,
     "videos": {
       "results": [
         {
@@ -5420,6 +5426,19 @@
           }
         },
         {
+          "iso_3166_1": "PL",
+          "iso_639_1": "pl",
+          "name": "Polski",
+          "english_name": "Polish",
+          "data": {
+            "homepage": "",
+            "overview": "Reżyser wraz ze swoim długoletnim współpracownikiem Juliano Dornellesem nakręcił miszmasz kina gatunkowego, będący inteligentną metaforą współczesnej Brazylii (czy na pewno tylko jej?) pogrążonej w polityczno-społecznym kryzysie. To przedziwna opowieść o odchodzeniu i umieraniu światów - tych najmniejszych lokalnych społeczności. Tytułowe, fikcyjne Bacurau dosłownie znika z mapy po śmierci swojej sędziwej przywódczyni Carmelity. Ale twórcy nie skupiają się na wyjaśnieniu tego dziwnego zjawiska, lecz zajmują kreowaniem niezwykłej atmosfery i piętrzeniem fabularnych szaleństw.",
+            "runtime": 0,
+            "tagline": "",
+            "title": "Bacurau"
+          }
+        },
+        {
           "iso_3166_1": "BR",
           "iso_639_1": "pt",
           "name": "Português",
@@ -5561,7 +5580,8 @@
         "Source": "Metacritic",
         "Value": "82/100"
       }
-    ]
+    ],
+    "letterboxdRating": "4.2"
   },
   {
     "adult": false,
@@ -5593,7 +5613,7 @@
     "original_language": "en",
     "original_title": "Bad Boys for Life",
     "overview": "Marcus and Mike are forced to confront new threats, career changes, and midlife crises as they join the newly created elite team AMMO of the Miami police department to take down the ruthless Armando Armas, the vicious leader of a Miami drug cartel.",
-    "popularity": 91.618,
+    "popularity": 87.071,
     "poster_path": "/y95lQLnuNKdPAzw9F9Ab8kJ80c3.jpg",
     "production_companies": [
       {
@@ -5651,7 +5671,7 @@
     "title": "Bad Boys for Life",
     "video": false,
     "vote_average": 7.2,
-    "vote_count": 4198,
+    "vote_count": 4205,
     "videos": {
       "results": [
         {
@@ -6725,7 +6745,8 @@
         "Source": "Metacritic",
         "Value": "59/100"
       }
-    ]
+    ],
+    "letterboxdRating": "3.1"
   },
   {
     "adult": false,
@@ -6748,7 +6769,7 @@
     "original_language": "en",
     "original_title": "Bloodshot",
     "overview": "After he and his wife are murdered, marine Ray Garrison is resurrected by a team of scientists. Enhanced with nanotechnology, he becomes a superhuman, biotech killing machine—'Bloodshot'. As Ray first trains with fellow super-soldiers, he cannot recall anything from his former life. But when his memories flood back and he remembers the man that killed both him and his wife, he breaks out of the facility to get revenge, only to discover that there's more to the conspiracy than he thought.",
-    "popularity": 115.421,
+    "popularity": 126.062,
     "poster_path": "/8WUVHemHFH2ZIP6NWkwlHWsyrEL.jpg",
     "production_companies": [
       {
@@ -6830,7 +6851,7 @@
     "title": "Bloodshot",
     "video": false,
     "vote_average": 7,
-    "vote_count": 2489,
+    "vote_count": 2500,
     "videos": {
       "results": [
         {
@@ -7929,7 +7950,8 @@
         "Source": "Metacritic",
         "Value": "44/100"
       }
-    ]
+    ],
+    "letterboxdRating": "2.3"
   },
   {
     "adult": false,
@@ -7948,7 +7970,7 @@
     "original_language": "en",
     "original_title": "Family Romance, LLC",
     "overview": "A man is hired to impersonate the missing father of a 12-year-old girl.",
-    "popularity": 4.455,
+    "popularity": 5.868,
     "poster_path": "/d7k7A21jFvT5jZd4UYNw1fDqqTe.jpg",
     "production_companies": [
       {
@@ -8260,808 +8282,8 @@
         "Source": "Rotten Tomatoes",
         "Value": "82%"
       }
-    ]
-  },
-  {
-    "adult": false,
-    "backdrop_path": "/ioEvXfhqwGr7z4KFBJOjoiNDwrx.jpg",
-    "belongs_to_collection": null,
-    "budget": 3000000,
-    "genres": [
-      {
-        "id": 18,
-        "name": "Drama"
-      },
-      {
-        "id": 14,
-        "name": "Fantasy"
-      }
     ],
-    "homepage": "",
-    "id": 11163,
-    "imdb_id": "tt0064940",
-    "original_language": "it",
-    "original_title": "Fellini's Satyricon",
-    "overview": "A series of disjointed mythical tales set in first century Rome.",
-    "popularity": 8.736,
-    "poster_path": "/T2ZEjDut5zqdeZYo8V34Jj8P76.jpg",
-    "production_companies": [
-      {
-        "id": 7508,
-        "logo_path": null,
-        "name": "PEA",
-        "origin_country": "IT"
-      }
-    ],
-    "production_countries": [
-      {
-        "iso_3166_1": "IT",
-        "name": "Italy"
-      },
-      {
-        "iso_3166_1": "FR",
-        "name": "France"
-      }
-    ],
-    "release_date": "1969-09-18",
-    "revenue": 0,
-    "runtime": 124,
-    "spoken_languages": [
-      {
-        "iso_639_1": "la",
-        "name": "Latin"
-      },
-      {
-        "iso_639_1": "it",
-        "name": "Italiano"
-      }
-    ],
-    "status": "Released",
-    "tagline": "Rome. Before Christ. After Fellini.",
-    "title": "Fellini Satyricon",
-    "video": false,
-    "vote_average": 6.9,
-    "vote_count": 169,
-    "videos": {
-      "results": [
-        {
-          "id": "533ec66ec3a3685448001e22",
-          "iso_639_1": "en",
-          "iso_3166_1": "US",
-          "key": "6bGZvV0YGGQ",
-          "name": "Trailer -Fellini Satyricon",
-          "site": "YouTube",
-          "size": 360,
-          "type": "Trailer"
-        },
-        {
-          "id": "533ec66ec3a3685448001e23",
-          "iso_639_1": "en",
-          "iso_3166_1": "US",
-          "key": "WnzGnFoK1-U",
-          "name": "John Landis on FELLINI SATYRICON",
-          "site": "YouTube",
-          "size": 720,
-          "type": "Featurette"
-        },
-        {
-          "id": "54f0df7b9251410ebe001b1b",
-          "iso_639_1": "en",
-          "iso_3166_1": "US",
-          "key": "WrUpTliVq5c",
-          "name": "Three Reasons: Fellini Satyricon",
-          "site": "YouTube",
-          "size": 1080,
-          "type": "Trailer"
-        },
-        {
-          "id": "5565c3ecc3a3687ade0019c2",
-          "iso_639_1": "en",
-          "iso_3166_1": "US",
-          "key": "m3LolS8d8wM",
-          "name": "Mary Ellen Mark Remembers Fellini",
-          "site": "YouTube",
-          "size": 1080,
-          "type": "Featurette"
-        }
-      ]
-    },
-    "credits": {
-      "cast": [
-        {
-          "cast_id": 1,
-          "character": "Encolpio",
-          "credit_id": "52fe44049251416c7502630f",
-          "gender": 2,
-          "id": 26690,
-          "name": "Martin Potter",
-          "order": 0,
-          "profile_path": "/eaj0pZBkKkNAAoYHiqouVojXyqt.jpg"
-        },
-        {
-          "cast_id": 2,
-          "character": "Ascilto",
-          "credit_id": "52fe44049251416c75026313",
-          "gender": 2,
-          "id": 18241,
-          "name": "Hiram Keller",
-          "order": 1,
-          "profile_path": "/gvQUxuulzYCQWLztH5FrpWpvJ76.jpg"
-        },
-        {
-          "cast_id": 3,
-          "character": "Gitone",
-          "credit_id": "52fe44049251416c75026317",
-          "gender": 2,
-          "id": 68405,
-          "name": "Max Born",
-          "order": 2,
-          "profile_path": null
-        },
-        {
-          "cast_id": 4,
-          "character": "Eumolpo",
-          "credit_id": "52fe44049251416c7502631b",
-          "gender": 2,
-          "id": 68406,
-          "name": "Salvo Randone",
-          "order": 3,
-          "profile_path": "/jjCd9gFzvpZOrbQLgsnnRhDT6fh.jpg"
-        },
-        {
-          "cast_id": 17,
-          "character": "Trimalcione",
-          "credit_id": "533308539251410b5d0039ce",
-          "gender": 2,
-          "id": 1014439,
-          "name": "Mario Romagnoli",
-          "order": 4,
-          "profile_path": null
-        },
-        {
-          "cast_id": 18,
-          "character": "Fortunata",
-          "credit_id": "533308689251410b4e003c90",
-          "gender": 1,
-          "id": 5963,
-          "name": "Magali Noël",
-          "order": 5,
-          "profile_path": "/mEFJnEVJ3MVOFrQLD40a8HMPr4O.jpg"
-        },
-        {
-          "cast_id": 19,
-          "character": "Trifena",
-          "credit_id": "5333087b9251410b54003b98",
-          "gender": 1,
-          "id": 14262,
-          "name": "Capucine",
-          "order": 6,
-          "profile_path": "/wO1NpSYFFPxFM4tnA1h6MAmdpPx.jpg"
-        },
-        {
-          "cast_id": 24,
-          "character": "Vernacchio",
-          "credit_id": "56d6ac649251411884005047",
-          "gender": 2,
-          "id": 994871,
-          "name": "Fanfulla",
-          "order": 7,
-          "profile_path": null
-        },
-        {
-          "cast_id": 20,
-          "character": "Il predone",
-          "credit_id": "533308949251410b54003b9b",
-          "gender": 2,
-          "id": 30898,
-          "name": "Gordon Mitchell",
-          "order": 8,
-          "profile_path": "/6rwemb9GbwdUOXqH3yrkgWVykS7.jpg"
-        },
-        {
-          "cast_id": 21,
-          "character": "Minotauro",
-          "credit_id": "533308ab9251410b4e003c97",
-          "gender": 2,
-          "id": 33807,
-          "name": "George Eastman",
-          "order": 9,
-          "profile_path": "/aE8C5uGqystShl13VcrZSjcraJ5.jpg"
-        },
-        {
-          "cast_id": 22,
-          "character": "",
-          "credit_id": "533308b99251410b54003b9d",
-          "gender": 2,
-          "id": 68330,
-          "name": "Ottaviano Dell'Acqua",
-          "order": 10,
-          "profile_path": null
-        },
-        {
-          "cast_id": 34,
-          "character": "Il capitano",
-          "credit_id": "57d54e6a9251415c1e000bfa",
-          "gender": 0,
-          "id": 1196792,
-          "name": "Carlo Giordana",
-          "order": 11,
-          "profile_path": null
-        },
-        {
-          "cast_id": 35,
-          "character": "Enotea",
-          "credit_id": "57d54ebac3a3686e3c00166f",
-          "gender": 0,
-          "id": 1385158,
-          "name": "Donyale Luna",
-          "order": 12,
-          "profile_path": null
-        },
-        {
-          "cast_id": 36,
-          "character": "Arianna",
-          "credit_id": "57d54f52925141381000648b",
-          "gender": 1,
-          "id": 44421,
-          "name": "Elisa Mainardi",
-          "order": 13,
-          "profile_path": "/2BTn86BYYZd66eUF2OcL3lIBeD1.jpg"
-        },
-        {
-          "cast_id": 37,
-          "character": "Proconsole (as Marcello di Folco)",
-          "credit_id": "57d54fbfc3a368556800d8c2",
-          "gender": 0,
-          "id": 1014273,
-          "name": "Marcello Di Falco",
-          "order": 14,
-          "profile_path": null
-        },
-        {
-          "cast_id": 38,
-          "character": "L'imperatore",
-          "credit_id": "57d5511192514137a1006886",
-          "gender": 1,
-          "id": 20798,
-          "name": "Tanya Lopert",
-          "order": 15,
-          "profile_path": "/vFTWLlFjYqkzNEsY7R0pvGQT6XK.jpg"
-        },
-        {
-          "cast_id": 39,
-          "character": "La schiavetta",
-          "credit_id": "57d5515992514137a10068ac",
-          "gender": 0,
-          "id": 1677527,
-          "name": "Hylette Adolphe",
-          "order": 16,
-          "profile_path": null
-        },
-        {
-          "cast_id": 40,
-          "character": "Il suicida (as Joseph Weelher)",
-          "credit_id": "57d551c7c3a3681323000d17",
-          "gender": 0,
-          "id": 1677528,
-          "name": "Joseph Wheeler",
-          "order": 17,
-          "profile_path": null
-        },
-        {
-          "cast_id": 41,
-          "character": "La matrona",
-          "credit_id": "57d5527fc3a3681326000ded",
-          "gender": 1,
-          "id": 39274,
-          "name": "Lucia Bosé",
-          "order": 18,
-          "profile_path": "/457XQDQMFLi1OwVrkYJxz1ElMVa.jpg"
-        },
-        {
-          "cast_id": 42,
-          "character": "Abinna",
-          "credit_id": "57d553439251415da7000ee1",
-          "gender": 0,
-          "id": 1677530,
-          "name": "Giuseppe Sanvitale",
-          "order": 19,
-          "profile_path": null
-        },
-        {
-          "cast_id": 43,
-          "character": "Scintilla (as Danica la Loggia)",
-          "credit_id": "57d553b192514136fa006698",
-          "gender": 0,
-          "id": 237334,
-          "name": "Danika La Loggia",
-          "order": 20,
-          "profile_path": "/5pEmkOoQIrevZzNUYqGz8grLE34.jpg"
-        },
-        {
-          "cast_id": 44,
-          "character": "Lica",
-          "credit_id": "57d554189251415c1e000ec4",
-          "gender": 2,
-          "id": 5964,
-          "name": "Alain Cuny",
-          "order": 21,
-          "profile_path": "/pWwOq4RTxq08FHaPCSobaKIp01A.jpg"
-        },
-        {
-          "cast_id": 46,
-          "character": "Orgy Musician",
-          "credit_id": "59054af0c3a3684ad70148db",
-          "gender": 2,
-          "id": 260229,
-          "name": "Richard Simmons",
-          "order": 22,
-          "profile_path": null
-        }
-      ],
-      "crew": [
-        {
-          "credit_id": "52fe44059251416c75026351",
-          "department": "Sound",
-          "gender": 2,
-          "id": 3098,
-          "job": "Original Music Composer",
-          "name": "Nino Rota",
-          "profile_path": "/v42v3uM7jqwoZxDJ8MlEtT6Ol7a.jpg"
-        },
-        {
-          "credit_id": "52fe44049251416c75026327",
-          "department": "Writing",
-          "gender": 2,
-          "id": 4415,
-          "job": "Screenplay",
-          "name": "Federico Fellini",
-          "profile_path": "/dtT6h0q7t3wLVlzc0ARNR8n5vlm.jpg"
-        },
-        {
-          "credit_id": "52fe44049251416c75026321",
-          "department": "Directing",
-          "gender": 2,
-          "id": 4415,
-          "job": "Director",
-          "name": "Federico Fellini",
-          "profile_path": "/dtT6h0q7t3wLVlzc0ARNR8n5vlm.jpg"
-        },
-        {
-          "credit_id": "52fe44059251416c75026339",
-          "department": "Writing",
-          "gender": 2,
-          "id": 5678,
-          "job": "Screenplay",
-          "name": "Brunello Rondi",
-          "profile_path": null
-        },
-        {
-          "credit_id": "52fe44059251416c7502633f",
-          "department": "Production",
-          "gender": 2,
-          "id": 5820,
-          "job": "Producer",
-          "name": "Alberto Grimaldi",
-          "profile_path": null
-        },
-        {
-          "credit_id": "56d909ed92514175a30056af",
-          "department": "Costume & Make-Up",
-          "gender": 2,
-          "id": 9247,
-          "job": "Costume Design",
-          "name": "Danilo Donati",
-          "profile_path": null
-        },
-        {
-          "credit_id": "56d909d9c3a3681e44023df7",
-          "department": "Art",
-          "gender": 2,
-          "id": 9247,
-          "job": "Set Decoration",
-          "name": "Danilo Donati",
-          "profile_path": null
-        },
-        {
-          "credit_id": "52fe44059251416c7502635d",
-          "department": "Camera",
-          "gender": 2,
-          "id": 15131,
-          "job": "Director of Photography",
-          "name": "Giuseppe Rotunno",
-          "profile_path": "/g983MStUH43ah1clMdObvegANEj.jpg"
-        },
-        {
-          "credit_id": "52fe44059251416c75026363",
-          "department": "Editing",
-          "gender": 2,
-          "id": 32053,
-          "job": "Editor",
-          "name": "Ruggero Mastroianni",
-          "profile_path": "/9YItUFD8YEBSVsEKUrYP6b5KClN.jpg"
-        },
-        {
-          "credit_id": "52fe44059251416c75026333",
-          "department": "Writing",
-          "gender": 2,
-          "id": 67884,
-          "job": "Screenplay",
-          "name": "Bernardino Zapponi",
-          "profile_path": null
-        },
-        {
-          "credit_id": "52fe44059251416c7502632d",
-          "department": "Writing",
-          "gender": 2,
-          "id": 68407,
-          "job": "Novel",
-          "name": "Petronius",
-          "profile_path": null
-        },
-        {
-          "credit_id": "52fe44059251416c75026345",
-          "department": "Sound",
-          "gender": 0,
-          "id": 68408,
-          "job": "Original Music Composer",
-          "name": "Tod Dockstader",
-          "profile_path": null
-        },
-        {
-          "credit_id": "52fe44059251416c7502634b",
-          "department": "Sound",
-          "gender": 0,
-          "id": 68409,
-          "job": "Original Music Composer",
-          "name": "Ilhan Mimaroglu",
-          "profile_path": null
-        },
-        {
-          "credit_id": "52fe44059251416c75026357",
-          "department": "Sound",
-          "gender": 0,
-          "id": 68410,
-          "job": "Original Music Composer",
-          "name": "Andrew Rudin",
-          "profile_path": null
-        },
-        {
-          "credit_id": "56d909e1c3a3681e3c0242a0",
-          "department": "Art",
-          "gender": 2,
-          "id": 95237,
-          "job": "Set Decoration",
-          "name": "Luigi Scaccianoce",
-          "profile_path": null
-        },
-        {
-          "credit_id": "56d90a1ac3a3681e3c0242af",
-          "department": "Directing",
-          "gender": 0,
-          "id": 232877,
-          "job": "Assistant Director",
-          "name": "Maurizio Mein",
-          "profile_path": null
-        },
-        {
-          "credit_id": "56d909d1c3a3681e39020c0a",
-          "department": "Production",
-          "gender": 0,
-          "id": 1014404,
-          "job": "Casting",
-          "name": "Enzo Provenzale",
-          "profile_path": null
-        },
-        {
-          "credit_id": "56d909f592514175a30056b2",
-          "department": "Costume & Make-Up",
-          "gender": 0,
-          "id": 1458526,
-          "job": "Makeup Artist",
-          "name": "Rino Carboni",
-          "profile_path": null
-        },
-        {
-          "credit_id": "56d909fe9251414291008d73",
-          "department": "Costume & Make-Up",
-          "gender": 0,
-          "id": 1586014,
-          "job": "Hairstylist",
-          "name": "Luciano Vito",
-          "profile_path": null
-        },
-        {
-          "credit_id": "56d90a08c3a3681e5001f2e3",
-          "department": "Production",
-          "gender": 0,
-          "id": 1586015,
-          "job": "Production Manager",
-          "name": "Roberto Cocco",
-          "profile_path": null
-        },
-        {
-          "credit_id": "56d90a119251416ff20056ca",
-          "department": "Production",
-          "gender": 0,
-          "id": 1586016,
-          "job": "Production Supervisor",
-          "name": "Lamberto Pippia",
-          "profile_path": null
-        },
-        {
-          "credit_id": "587d60cd9251414101013006",
-          "department": "Directing",
-          "gender": 1,
-          "id": 1740212,
-          "job": "Continuity",
-          "name": "Norma Giacchero",
-          "profile_path": null
-        }
-      ]
-    },
-    "translations": {
-      "translations": [
-        {
-          "iso_3166_1": "BG",
-          "iso_639_1": "bg",
-          "name": "български език",
-          "english_name": "Bulgarian",
-          "data": {
-            "homepage": "",
-            "overview": "Не е лесно да се направи филм за древния Рим - и то нов, оригинален... Опитвам се да представя този свят като далечен и непознат, като цивилизация сякаш от друга планета, гледана с окото на пришълец от нашия съвременен свят. Нито за момент не съм мислил за някаква историческа реконструкция на тогавашното римско общество... Стремя се единствено към реконструиране на човешката психика от преди 2000 години и към показването на определени контрастни аспекти на този езически свят - от вулгарността на плебейското зрелище в театъра до изтънчените забавления на патрициите, от почти животинското поведение на тълпата до мистичните ритуали... Виждам определено общо подобие между нашия западен свят и света на Римската империя в периода на упадък. Това е приказка. Варварска, жестока, фантастична приказка. Федерико Фелини",
-            "runtime": 138,
-            "tagline": "",
-            "title": "Сатирикон"
-          }
-        },
-        {
-          "iso_3166_1": "DE",
-          "iso_639_1": "de",
-          "name": "Deutsch",
-          "english_name": "German",
-          "data": {
-            "homepage": "",
-            "overview": "Aus dem Jahre 1969 stammt dieser Klassiker von Federico Fellini. Basierend auf der gleichnahmigen Vorlage von Petronius versetzt Satyricon den Zuschauer zurück in das Alte Rom unter Kaiser Nero. Unter anderem erzählt Fellini die Geschichte zweier Jünglinge, die um die Gunst eines Lustknaben buhlen.",
-            "runtime": 129,
-            "tagline": "",
-            "title": "Fellinis Satyricon"
-          }
-        },
-        {
-          "iso_3166_1": "GR",
-          "iso_639_1": "el",
-          "name": "ελληνικά",
-          "english_name": "Greek",
-          "data": {
-            "homepage": "",
-            "overview": "Η περιπλάνηση δύο νεαρών ακόλαστων στη Ρώμη της εποχής του Νέρωνα. Ελεύθερη προσέγγιση του έργου του Πετρώνιου, μέσα από ένα εγχείρημα που ο Φελίνι αποκάλεσε \"δοκίμιο επιστημονικής φαντασίας του παρελθόντος\". Χαλαρό αφηγηματικά, αλλά με εντυπωσιακές εικόνες και εκπληκτικά σκηνικά από τον Ντανίλο Ντονάτι.",
-            "runtime": 0,
-            "tagline": "",
-            "title": "Σατυρικόν"
-          }
-        },
-        {
-          "iso_3166_1": "US",
-          "iso_639_1": "en",
-          "name": "English",
-          "english_name": "English",
-          "data": {
-            "homepage": "",
-            "overview": "A series of disjointed mythical tales set in first century Rome.",
-            "runtime": 124,
-            "tagline": "Rome. Before Christ. After Fellini.",
-            "title": "Fellini Satyricon"
-          }
-        },
-        {
-          "iso_3166_1": "ES",
-          "iso_639_1": "es",
-          "name": "Español",
-          "english_name": "Spanish",
-          "data": {
-            "homepage": "",
-            "overview": "En la Roma del siglo primero después de Cristo, dos estudiantes, Encolpio y Ascilto, discuten sobre su propiedad sobre el adolescente Gitone. El niño escoge a Ascilto. Sólo un terremoto salva a Encolpio del suicidio. A partir de entonces, Ascilto vivirá una serie de aventuras y desventuras para conocer nuevos amores.",
-            "runtime": 129,
-            "tagline": "Roma. Antes de Cristo. Después de Fellini.",
-            "title": "Satiricón"
-          }
-        },
-        {
-          "iso_3166_1": "FR",
-          "iso_639_1": "fr",
-          "name": "Français",
-          "english_name": "French",
-          "data": {
-            "homepage": "",
-            "overview": "Satyricon présente une société romaine en pleine décadence, où orgies et autres festins sont courants, la morale y étant absente. Loin des reconstitutions historiques et autres péplums, Federico Fellini nous raconte les pérégrinations de deux jeunes parasites de l'époque néronienne, Encolpe et Ascylte.",
-            "runtime": 135,
-            "tagline": "",
-            "title": "Satyricon"
-          }
-        },
-        {
-          "iso_3166_1": "IL",
-          "iso_639_1": "he",
-          "name": "עִבְרִית",
-          "english_name": "Hebrew",
-          "data": {
-            "homepage": "",
-            "overview": "הדקאדנס של האימפריה הרומית בגירסתו המקורית של פליני לכתבי פטרוניוס. פליני נותן דרור לדמיונו ומחייה במלואה את החושניות של המאה הראשונה לספירה - תיאטרון וזירה, פילוסופיה ושירה, תאוות בשרים ומאגיה, ובקיצור - חיים ללא מוגבלויות נוצריות.",
-            "runtime": 0,
-            "tagline": "",
-            "title": "פליני סטיריקון"
-          }
-        },
-        {
-          "iso_3166_1": "HU",
-          "iso_639_1": "hu",
-          "name": "Magyar",
-          "english_name": "Hungarian",
-          "data": {
-            "homepage": "",
-            "overview": "Az elegáns stílusú antik szerző, Petronius műve alapján készített film Fellini víziója a hajdan hatalmas Róma mindennapjairól. Arról a császári Rómáról, amely egyszerre volt minden bűn melegágya és az új erkölcs bölcsője. Két Néró császár korabeli siheder, Encolpius és Ascyltus kalandjait követhetjük nyomon. A szerelemféltésből induló történet földrészeken és mítoszokon vezet keresztül, újjáteremtve a ránk maradt freskók csodálatos világát.",
-            "runtime": 0,
-            "tagline": "",
-            "title": "Fellini: Satyricon"
-          }
-        },
-        {
-          "iso_3166_1": "IT",
-          "iso_639_1": "it",
-          "name": "Italiano",
-          "english_name": "Italian",
-          "data": {
-            "homepage": "",
-            "overview": "I protagonisti sono Ascilto ed Encolpio, due giovani scapestrati romani che vivono di espedienti in una Roma imperiale simbolo della decadenza morale dei tempi. Lo sfondo sociologico del film è quello delle nuove classi sociali, come i liberti arricchiti e i cavalieri.",
-            "runtime": 125,
-            "tagline": "Roma. Avanti Cristo. Secondo Fellini",
-            "title": "Fellini Satyricon"
-          }
-        },
-        {
-          "iso_3166_1": "JP",
-          "iso_639_1": "ja",
-          "name": "日本語",
-          "english_name": "Japanese",
-          "data": {
-            "homepage": "",
-            "overview": "",
-            "runtime": 0,
-            "tagline": "",
-            "title": "サテリコン"
-          }
-        },
-        {
-          "iso_3166_1": "KR",
-          "iso_639_1": "ko",
-          "name": "한국어/조선말",
-          "english_name": "Korean",
-          "data": {
-            "homepage": "",
-            "overview": "영화의 도입부에서 재현되는 아름다운 청년들 사이의 동성애로부터 시작하여, 연이어 등장하는 에피소드들은 하나같이 놀라움과 충격을 보여준다. 영화는 엔콜피우스(껴안는 사람, 마틴 포터), 그의 친구인 아실토(벌을 모면한 사람, 히램 켈러), 소년 지토네(이웃 사람, 맥스 본) 등 평판이 나쁜 세 모험가의 방황과 무분별한 행위들을 묘사하고 있다. 지토네를 사랑하고 있는 엔콜피우스는 친구인 아실토를 추궁하여 지토네를 돌려달라고 강요한다. 하지만 아실트는 이미 지토네를 광대에게 팔아넘긴 후였고, 엔콜피우스는 광대에게서 간신히 지토네를 데려오지만, 다시 아실트가 그를 데려가 버린다. 그리고 여기에 부유한 속물이자 복합적인 인물인 트리말키오(마리오 로마놀리)의 이야기가 더해진다. 막대한 재산을 갖고 천박한 겉치레를 좋아하며 교양이 있는 체 허세를 부리지만, 감상적인 실수로 타고난 상스러움을 드러내는 주인공 트리말키오는 풍자문학에 등장하는 전형적인 인물이다. 영화는 에피소드 속에 또 다른 에피소드를 끼워 넣기도 한다. 다시 말해 영화 속에 영화가 등장하고, 또 환상과 꿈 사이의 경계를 흐릿하게 꾸며놓아 앞서 서술한 기본 골격을 제외하고는 그 이야기의 표면을 따라가기조차 쉽지 않다. 펠리니의 창작에 대한 광기마저 느껴지는 '사티리콘'은 ‘로마시대에 대한 환상 에세이’라고도 소개된다.",
-            "runtime": 0,
-            "tagline": "",
-            "title": "사티리콘"
-          }
-        },
-        {
-          "iso_3166_1": "NL",
-          "iso_639_1": "nl",
-          "name": "Nederlands",
-          "english_name": "Dutch",
-          "data": {
-            "homepage": "",
-            "overview": "Verfilming van de overgeleverde fragmenten van het gelijknamige boek van Gaius Petronius. In het Rome van de eerste eeuw na Chr. wordt een poging tot zelfmoord door Encolpio verijdeld door een plotselinge aardbeving. Hij gaat op zoek naar zijn schoolvriend Ascilto, en ontmoet tijdens zijn zoektocht vele opmerkelijke mensen en maakt vreemde avonturen mee.",
-            "runtime": 128,
-            "tagline": "",
-            "title": ""
-          }
-        },
-        {
-          "iso_3166_1": "PL",
-          "iso_639_1": "pl",
-          "name": "Polski",
-          "english_name": "Polish",
-          "data": {
-            "homepage": "",
-            "overview": "Wejdź do sprośnego, erotycznego i ekscytującego świata Rzymu z okresu panowania Cesarza Nerona, gdzie dwóch nauczycieli rywalizuje ze sobą, zabiegając o względy tego samego kochanka. Obywatele Rzymu dbający tylko o własne dobro prezentują obraz nowoczesnego, wyuzdanego i folgującego sobie społeczeństwa, w którym przeplatają się wielka przyjemność i głęboka rozpacz. Wszystko to ukazane jest w wizualnie uwodzicielskich, szokujących i oszałamiających geniuszem scenach.",
-            "runtime": 0,
-            "tagline": "",
-            "title": "Satyricon"
-          }
-        },
-        {
-          "iso_3166_1": "BR",
-          "iso_639_1": "pt",
-          "name": "Português",
-          "english_name": "Portuguese",
-          "data": {
-            "homepage": "",
-            "overview": "A estória narra as aventuras e desventuras de Encolpio e Ascilto, pelo afeto de Gitão (Gitone), que após ser vendido a um ator de teatro, é resgatado por Encolpio mas escolhe ficar com Ascilto. Rejeitado, Encolpio é salvo do próprio suicídio por um terremoto, e a partir daí começa uma jornada que tem por pano de fundo uma galeria de artes onde conhece o poeta Eumolpo, e o acompanha até um bacanal promovido por um aristocrata com pretenções artísticas, mas que despreza a própria esposa pela companhia de um menino.  Pedofilia, homossexualidade, antropofagia, rituais diversos, numa Babel de culturas, que nos desafiam a ver uma Roma Clássica que, sob os valores de hoje, seria amoral e decadente.",
-            "runtime": 0,
-            "tagline": "",
-            "title": "Satyricon de Fellini"
-          }
-        },
-        {
-          "iso_3166_1": "PT",
-          "iso_639_1": "pt",
-          "name": "Português",
-          "english_name": "Portuguese",
-          "data": {
-            "homepage": "",
-            "overview": "A estória narra as aventuras e desventuras de Encolpio e Ascilto, pelo afeto de Gitão (Gitone), que após ser vendido a um ator de teatro, é resgatado por Encolpio mas escolhe ficar com Ascilto. Rejeitado, Encolpio é salvo do próprio suicídio por um terremoto, e a partir daí começa uma jornada que tem por pano de fundo uma galeria de artes onde conhece o poeta Eumolpo, e o acompanha até um bacanal promovido por um aristocrata com pretenções artísticas, mas que despreza a própria esposa pela companhia de um menino.  Pedofilia, homossexualidade, antropofagia, rituais diversos, numa Babel de culturas, que nos desafiam a ver uma Roma Clássica que, sob os valores de hoje, seria amoral e decadente.",
-            "runtime": 0,
-            "tagline": "",
-            "title": "Fellini Satyricon"
-          }
-        },
-        {
-          "iso_3166_1": "RU",
-          "iso_639_1": "ru",
-          "name": "Pусский",
-          "english_name": "Russian",
-          "data": {
-            "homepage": "",
-            "overview": "Фильм по мотивам одноимённого романа Петрония, показывающий Римскую Империю времен упадка. В образах римской жизни угадывается современная реальность.",
-            "runtime": 0,
-            "tagline": "",
-            "title": "Сатирикон Феллини"
-          }
-        },
-        {
-          "iso_3166_1": "SE",
-          "iso_639_1": "sv",
-          "name": "svenska",
-          "english_name": "Swedish",
-          "data": {
-            "homepage": "",
-            "overview": "Encolpio och Ascilto grälar om vem som äger pojken Gitone. De två vännerna går sina separata vägar och pojken väljer att följa med Ascilto. Encolpio försöker begå självmord, men en jordbävning hindrar honom och han beger sig istället ut på äventyr.",
-            "runtime": 0,
-            "tagline": "",
-            "title": ""
-          }
-        },
-        {
-          "iso_3166_1": "UA",
-          "iso_639_1": "uk",
-          "name": "Український",
-          "english_name": "Ukrainian",
-          "data": {
-            "homepage": "",
-            "overview": "Грандіозна містерія, що відтворює на екрані фантастичний світ Римської Імперії часів її занепаду. Фантасмагорія Стародавнього Риму і герої фільму надзвичайно схожі на нинішнє суспільство і наших сучасників: наркотики, сексуальні стосунки всіх різновидів, прагнення \"цілковитої свободи\"...",
-            "runtime": 0,
-            "tagline": "",
-            "title": "Сатирикон Фелліні"
-          }
-        },
-        {
-          "iso_3166_1": "CN",
-          "iso_639_1": "zh",
-          "name": "普通话",
-          "english_name": "Mandarin",
-          "data": {
-            "homepage": "",
-            "overview": "费里尼1969年作品，意大利、法国合拍，片长138分钟。《爱情神话》原名《萨蒂里孔》，根据公元一世纪罗马人阿尔比特罗的同名小说改编，影片向人们描绘了罗马帝国荒淫无度的享乐生活。在公元一世纪的罗马，Encolpio和他同学的Ascilto，正在争论着男孩Gitone的所有权。他们分了自己的财物并打算各奔东西。男孩可以选择跟从谁，他选择了Ascilto。已经决定要自杀的Encolpio，因为一起突如其来的地震而幸免于难。接下来随着在Encolpio身上发生的一系列冒险经历，导演费里尼用近乎漫画的笔法将自己幻想中的古罗马生活展现在观众面前，他并没有对影片中的道义进行批判或者赞许。难怪他在影片拍摄之前就发表声明，《萨蒂里孔》将不是一部古代历史题材影片，而是一部科学幻想片。整个剧情支离破碎，涉及很多古罗马的风土人情，尤其是当时在道德、性行为、饮食及表演方面的习俗，堪称古罗马的“饮食男女”。",
-            "runtime": 0,
-            "tagline": "",
-            "title": "爱情神话"
-          }
-        }
-      ]
-    },
-    "imdbRating": "6.9",
-    "omdbRatings": [
-      {
-        "Source": "Internet Movie Database",
-        "Value": "6.9/10"
-      },
-      {
-        "Source": "Rotten Tomatoes",
-        "Value": "77%"
-      }
-    ]
+    "letterboxdRating": "3.2"
   },
   {
     "adult": false,
@@ -9092,7 +8314,7 @@
     "original_language": "fr",
     "original_title": "En liberté !",
     "overview": "Detective Yvonne is the widow of police chief Santi, a local hero in a town on the French Riviera. When she learns he was in fact a crooked cop, she tries to right his wrongs. Crossing paths with Antoine, a victim of Santi, sets off a series of wild events.",
-    "popularity": 7.16,
+    "popularity": 9.753,
     "poster_path": "/rYpSGiCcRnnb3fgqhmxbExKnH7i.jpg",
     "production_companies": [
       {
@@ -9588,7 +8810,8 @@
         "Source": "Internet Movie Database",
         "Value": "6.3/10"
       }
-    ]
+    ],
+    "letterboxdRating": "3.1"
   },
   {
     "adult": false,
@@ -9615,7 +8838,7 @@
     "original_language": "en",
     "original_title": "Mosley",
     "overview": "The film tells the story of Mosley, a \"thoriphant\" who rebels against his life of servitude and embarks on a treacherous journey to find the fabled city of Uprights.",
-    "popularity": 7.195,
+    "popularity": 8.055,
     "poster_path": "/7ZajJ1ymE3HtbAAB3q9hN0P6y12.jpg",
     "production_companies": [
       {
@@ -9877,7 +9100,8 @@
         "Source": "Internet Movie Database",
         "Value": "6.3/10"
       }
-    ]
+    ],
+    "letterboxdRating": "3.3"
   },
   {
     "adult": false,
@@ -9900,7 +9124,7 @@
     "original_language": "pt",
     "original_title": "Mosquito",
     "overview": "Dreaming of great adventures and of standing up for his homeland, a young Portuguese man enlists in the army during World War I and is sent to the front line in Mozambique, Africa. Left behind by his platoon, he sets out on a grueling trek across the mystic Makua native land, walking for over a thousand kilometers, in search of his dream.",
-    "popularity": 0.801,
+    "popularity": 1.319,
     "poster_path": "/mUFsWhQilYuNMS10mBe6PHuhh94.jpg",
     "production_companies": [
       {
@@ -10383,7 +9607,8 @@
       ]
     },
     "imdbRating": "N/A",
-    "omdbRatings": []
+    "omdbRatings": [],
+    "letterboxdRating": "3.3"
   },
   {
     "adult": false,
@@ -10402,7 +9627,7 @@
     "original_language": "en",
     "original_title": "The Way Back",
     "overview": "A former basketball all-star, who has lost his wife and family foundation in a struggle with addiction attempts to regain his soul and salvation by becoming the coach of a disparate ethnically mixed high school basketball team at his alma mater.",
-    "popularity": 26.342,
+    "popularity": 26.15,
     "poster_path": "/ylPnfaphW3FrLBUVwAREVtiL9My.jpg",
     "production_companies": [
       {
@@ -10444,7 +9669,7 @@
     "title": "The Way Back",
     "video": false,
     "vote_average": 6.6,
-    "vote_count": 241,
+    "vote_count": 242,
     "videos": {
       "results": [
         {
@@ -11486,7 +10711,8 @@
         "Source": "Metacritic",
         "Value": "68/100"
       }
-    ]
+    ],
+    "letterboxdRating": "3.4"
   },
   {
     "adult": false,
@@ -11521,7 +10747,7 @@
     "original_language": "ja",
     "original_title": "天気の子",
     "overview": "Tokyo is currently experiencing rain showers that seem to disrupt the usual pace of everyone living there to no end. Amidst this seemingly eternal downpour arrives the runaway high school student Hodaka Morishima, who struggles to financially support himself—ending up with a job at a small-time publisher. At the same time, the orphaned Hina Amano also strives to find work to sustain herself and her younger brother.\r Both fates intertwine when Hodaka attempts to rescue Hina from shady men, deciding to run away together. Subsequently, Hodaka discovers that Hina has a strange yet astounding power: the ability to call out the sun whenever she prays for it. With Tokyo's unusual weather in mind, Hodaka sees the potential of this ability. He suggests that Hina should become a \"sunshine girl\"—someone who will clear the sky for people when they need it the most.\r Things begin looking up for them at first. However, it is common knowledge that power always comes with a hefty price...",
-    "popularity": 39.943,
+    "popularity": 39.297,
     "poster_path": "/qgrk7r1fV4IjuoeiGS5HOhXNdLJ.jpg",
     "production_companies": [
       {
@@ -11587,7 +10813,7 @@
     "title": "Weathering with You",
     "video": false,
     "vote_average": 7.9,
-    "vote_count": 333,
+    "vote_count": 334,
     "videos": {
       "results": [
         {
@@ -12287,7 +11513,8 @@
         "Source": "Metacritic",
         "Value": "72/100"
       }
-    ]
+    ],
+    "letterboxdRating": "3.6"
   },
   {
     "adult": false,
@@ -12306,7 +11533,7 @@
     "original_language": "fr",
     "original_title": "Les Traducteurs",
     "overview": "Nine translators have been picked by a ruthless publisher and locked in a luxury bunker to translate the highly anticipated book of a famous author in record time. Although the translators are confined to prevent any kind of leak because of the high financial stakes, a crisis erupts when someone posts the first 10 pages of the novel online and blackmails the publisher to pay 5 million euros. A hunt for the culprit inside the bunker unfolds.",
-    "popularity": 10.613,
+    "popularity": 9.15,
     "poster_path": "/8A6qALzfMxgj51ly8KyTCZfXutG.jpg",
     "production_companies": [
       {
@@ -12911,7 +12138,8 @@
         "Source": "Internet Movie Database",
         "Value": "6.4/10"
       }
-    ]
+    ],
+    "letterboxdRating": "3.3"
   },
   {
     "adult": false,
@@ -12930,7 +12158,7 @@
     "original_language": "fr",
     "original_title": "Chambre 212",
     "overview": "After 20 years of marriage, Maria decides to leave her husband. She moves into room 212 at the hotel across the street, with a bird’s-eye view of her apartment, her husband and the life she shared with him. While she wonders if she made the right decision, many of the people in her life offer their opinions on the matter. They intend to let her know, whether she likes it or not, on what proves to be a life-changing evening.",
-    "popularity": 9.113,
+    "popularity": 11.912,
     "poster_path": "/8UKHFihSkMQT3U6RCpea3F9PjCG.jpg",
     "production_companies": [
       {
@@ -13367,7 +12595,8 @@
         "Source": "Metacritic",
         "Value": "55/100"
       }
-    ]
+    ],
+    "letterboxdRating": "3.2"
   },
   {
     "adult": false,
@@ -13386,7 +12615,7 @@
     "original_language": "en",
     "original_title": "Who Will Write Our History?",
     "overview": "Documentary about a group of Jews, who collected and hid a lot of stories and documents about everyday  jewish life in the Warsaw Getto.",
-    "popularity": 4.339,
+    "popularity": 3.606,
     "poster_path": "/u6U35acdDPPgoKEVWUYDdpaYMaH.jpg",
     "production_companies": [
       {
@@ -13878,7 +13107,8 @@
         "Source": "Metacritic",
         "Value": "83/100"
       }
-    ]
+    ],
+    "letterboxdRating": "3.6"
   },
   {
     "adult": false,
@@ -13901,7 +13131,7 @@
     "original_language": "fr",
     "original_title": "Portrait de la jeune fille en feu",
     "overview": "On an isolated island in Brittany at the end of the eighteenth century, a female painter is obliged to paint a wedding portrait of a young woman.",
-    "popularity": 20.651,
+    "popularity": 20.349,
     "poster_path": "/3NTEMlG5mQdIAlKDl3AJG0rX29Z.jpg",
     "production_companies": [
       {
@@ -13983,7 +13213,7 @@
     "title": "Portrait of a Lady on Fire",
     "video": false,
     "vote_average": 8.3,
-    "vote_count": 688,
+    "vote_count": 689,
     "videos": {
       "results": [
         {
@@ -15107,7 +14337,8 @@
         "Source": "Metacritic",
         "Value": "95/100"
       }
-    ]
+    ],
+    "letterboxdRating": "4.4"
   },
   {
     "adult": false,
@@ -15147,7 +14378,7 @@
     "original_language": "ru",
     "original_title": "Снежная Королева: Зазеркалье",
     "overview": "A powerful king nearly lost his family due to the Snow Queen's evil deeds. He finds a way to ban all the magic from the world - all the possessors of magic powers are now trapped in Mirrorlands. The only one who can stop him and keep the fairy-tale in our world is Gerda - as her own biggest power is not magic but her faith in kindness and friendship. In Gerda's new adventures, she will be helped by trolls, pirates and even the Snow Queen herself.",
-    "popularity": 4.052,
+    "popularity": 5.673,
     "poster_path": "/eIrcO3fNqtUxbslpcLzeqY33SlK.jpg",
     "production_companies": [
       {
@@ -15713,7 +14944,8 @@
         "Source": "Internet Movie Database",
         "Value": "5.5/10"
       }
-    ]
+    ],
+    "letterboxdRating": "3.0"
   },
   {
     "adult": false,
@@ -15744,7 +14976,7 @@
     "original_language": "en",
     "original_title": "Sonic the Hedgehog",
     "overview": "Based on the global blockbuster videogame franchise from Sega, Sonic the Hedgehog tells the story of the world’s speediest hedgehog as he embraces his new home on Earth. In this live-action adventure comedy, Sonic and his new best friend team up to defend the planet from the evil genius Dr. Robotnik and his plans for world domination.",
-    "popularity": 102.904,
+    "popularity": 97.946,
     "poster_path": "/aQvJ5WPzZgYVDrxLX4R6cLJCEaQ.jpg",
     "production_companies": [
       {
@@ -15830,7 +15062,7 @@
     "title": "Sonic the Hedgehog",
     "video": false,
     "vote_average": 7.5,
-    "vote_count": 4356,
+    "vote_count": 4373,
     "videos": {
       "results": [
         {
@@ -17140,7 +16372,8 @@
         "Source": "Metacritic",
         "Value": "47/100"
       }
-    ]
+    ],
+    "letterboxdRating": "2.9"
   },
   {
     "adult": false,
@@ -17163,7 +16396,7 @@
     "original_language": "de",
     "original_title": "Tabaluga",
     "overview": "A young dragon looking for his own fire must fight against an evil wizard with help of the beautiful ice princess, Lilli.",
-    "popularity": 2.324,
+    "popularity": 1.721,
     "poster_path": "/wDjG3ihlUlCqzasAxo4InceFj46.jpg",
     "production_companies": [
       {
@@ -17541,7 +16774,8 @@
         "Source": "Internet Movie Database",
         "Value": "5.0/10"
       }
-    ]
+    ],
+    "letterboxdRating": "2.9"
   },
   {
     "adult": false,
@@ -17573,7 +16807,7 @@
     "original_language": "en",
     "original_title": "Brahms: The Boy II",
     "overview": "After a family moves into the Heelshire Mansion, their young son soon makes friends with a life-like doll called Brahms.",
-    "popularity": 15.687,
+    "popularity": 17.175,
     "poster_path": "/tIpGQ9uuII7QVFF0GHCFTJFfXve.jpg",
     "production_companies": [
       {
@@ -17613,7 +16847,7 @@
     "title": "Brahms: The Boy II",
     "video": false,
     "vote_average": 6.4,
-    "vote_count": 418,
+    "vote_count": 421,
     "videos": {
       "results": [
         {
@@ -18270,7 +17504,8 @@
         "Source": "Metacritic",
         "Value": "29/100"
       }
-    ]
+    ],
+    "letterboxdRating": "1.7"
   },
   {
     "adult": false,
@@ -18289,7 +17524,7 @@
     "original_language": "de",
     "original_title": "Ein deutsches Leben",
     "overview": "Brunhilde Pomsel describes herself as an \"apolitical girl\" and a \"figure on the margins,\" but she got closer to one of the worst criminals in world history than anyone else left alive. Today aged 104, Pomsel served as Nazi Propaganda Minister Joseph Goebbels' stenographer. Brunhilde Pomsel's life mirrors all the major breaks and continuities of the 20th century. Many people think that the dangers of war and fascism have been overcome. Brunhilde Pomsel makes it clear that this is not case.",
-    "popularity": 0.972,
+    "popularity": 0.778,
     "poster_path": "/g8jJexYyjuDP2TvrmWlvXcmBVJ0.jpg",
     "production_companies": [
       {
@@ -18557,7 +17792,8 @@
         "Source": "Internet Movie Database",
         "Value": "7.2/10"
       }
-    ]
+    ],
+    "letterboxdRating": "3.5"
   },
   {
     "adult": false,
@@ -18576,7 +17812,7 @@
     "original_language": "pt",
     "original_title": "Uma Vida Sublime",
     "overview": "Dr. Ivan has found two radical cures for unhappiness: the diagnosis of fake terminal cancers and the temporary elimination of some of the 5 senses. But will the therapies result or will they have unforeseeable side effects?",
-    "popularity": 1.088,
+    "popularity": 0.653,
     "poster_path": "/ntVKEQJ36PDqadDJC4CN5J1pYaI.jpg",
     "production_companies": [
       {
@@ -18854,7 +18090,8 @@
         "Source": "Internet Movie Database",
         "Value": "6.1/10"
       }
-    ]
+    ],
+    "letterboxdRating": ""
   },
   {
     "adult": false,
@@ -18873,7 +18110,7 @@
     "original_language": "fr",
     "original_title": "Doubles vies",
     "overview": "Alain, a successful Parisian publisher struggling to adapt to the digital revolution, has major doubts about the new manuscript of Léonard, one of his long-time authors - another work of auto-fiction recycling his love affair with a minor celebrity. Selena, Alain’s wife, a famous stage actress, is of the opposite opinion.",
-    "popularity": 6.746,
+    "popularity": 5.041,
     "poster_path": "/Y53RXHnbpoVE1ACfkzxzkFKVeq.jpg",
     "production_companies": [
       {
@@ -19536,7 +18773,8 @@
         "Source": "Metacritic",
         "Value": "78/100"
       }
-    ]
+    ],
+    "letterboxdRating": "3.2"
   },
   {
     "adult": false,
@@ -19563,7 +18801,7 @@
     "original_language": "en",
     "original_title": "Wild Rose",
     "overview": "A young Scottish singer, Rose-Lynn Harlan, dreams of making it as a country artist in Nashville after being released from prison.",
-    "popularity": 12.549,
+    "popularity": 14.174,
     "poster_path": "/79THplH9WM7y3gRPYM4dcC0IRPw.jpg",
     "production_companies": [
       {
@@ -20562,6 +19800,7 @@
         "Source": "Metacritic",
         "Value": "80/100"
       }
-    ]
+    ],
+    "letterboxdRating": "3.6"
   }
 ]

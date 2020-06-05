@@ -1,12 +1,13 @@
 import { ReactComponent as ImdbLogo } from "../../icons/imdb.svg";
 import { ReactComponent as RottenLogo } from "../../icons/rotten.svg";
 import { ReactComponent as MetacriticLogo } from "../../icons/metacritic.svg";
+import { ReactComponent as LetterboxdLogo } from "../../icons/letterboxd.svg";
 import React from "react";
 import cx from "classnames";
 import Styles from "./Ratings.module.scss";
 
 const Ratings = ({ film }) => {
-  const { imdbRating, omdbRatings, imdb_id } = film;
+  const { imdbRating, omdbRatings, letterboxdRating, imdb_id } = film;
 
   if (!imdbRating) {
     return null;
@@ -28,20 +29,37 @@ const Ratings = ({ film }) => {
     Metacritic: {
       theme: Styles.metacritic,
       icon: <MetacriticLogo />
+    },
+    Letterboxd: {
+      theme: Styles.letterboxd,
+      icon: <LetterboxdLogo />
     }
   };
 
-  const ratingContent = (rating, source) => {
+  const ratingContent = (ratingValue, source) => {
     return (
       <>
         <span className={Styles.icon}>{source.icon}</span>
-        <p>{rating.Value}</p>
+        <p>{ratingValue}</p>
       </>
     );
   };
 
   return (
     <div className={Styles.container}>
+      {letterboxdRating && (
+        <a
+          className={cx(
+            Styles.ratingContainer,
+            ratingsWebsites.Letterboxd.theme
+          )}
+          key={`letterboxd_${film.title}`}
+          href={`https://letterboxd.com/tmdb/${film.id}`}
+          target="_blank"
+        >
+          {ratingContent(`${letterboxdRating}/5`, ratingsWebsites.Letterboxd)}
+        </a>
+      )}
       {omdbRatings.map(rating => {
         const isLink = shouldRenderAsLink(rating);
         const Component = isLink ? "a" : "span";
@@ -58,7 +76,7 @@ const Ratings = ({ film }) => {
               target: "_blank"
             })}
           >
-            {ratingContent(rating, source)}
+            {ratingContent(rating.Value, source)}
           </Component>
         );
       })}

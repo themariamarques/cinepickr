@@ -17,6 +17,9 @@ const SortBy = () => {
       style={{ width: 155, height: 32 }}
       onChange={handleChange}
     >
+      <Option key="letterboxd" value="letterboxd">
+        Letterboxd
+      </Option>
       {ratingSources.map(source => (
         <Option key={source.name} value={source.name}>
           {source.shortName || source.name}
