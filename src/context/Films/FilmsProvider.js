@@ -7,11 +7,11 @@ const FilmsProvider = ({ children }) => {
   const [films, setFilms] = useState([]);
   const [availableGenres, setAvailableGenres] = useState([]);
 
-  const setGenresToSelect = films => {
+  const setGenresToSelect = (films) => {
     let availableGenresIds = [];
 
-    films.map(film => {
-      film.genres.map(genre => {
+    films.map((film) => {
+      film.genres.map((genre) => {
         if (availableGenresIds.includes(genre.id)) {
           return null;
         }
@@ -29,11 +29,11 @@ const FilmsProvider = ({ children }) => {
     return () => null;
   }, []);
 
-  const filterByGenre = genres => {
-    const filteredList = filmsFullDetail.filter(film => {
+  const filterByGenre = (genres) => {
+    const filteredList = filmsFullDetail.filter((film) => {
       let shouldIncludeFilmInFilteredList = true;
-      genres.map(genre => {
-        if (!film.genres.some(el => el.name === genre)) {
+      genres.map((genre) => {
+        if (!film.genres.some((el) => el.name === genre)) {
           shouldIncludeFilmInFilteredList = false;
         }
       });
@@ -44,7 +44,7 @@ const FilmsProvider = ({ children }) => {
     setGenresToSelect(filteredList);
   };
 
-  const sortBy = value => {
+  const sortBy = (value) => {
     const sortedFilms = films.sort((filmA, filmB) => {
       if (value === "shortruntime" || value === "longruntime") {
         return sortByRuntime(value, filmA, filmB);
@@ -76,18 +76,26 @@ const FilmsProvider = ({ children }) => {
     const { omdbRatings: omdbRatingsA } = filmA;
     const { omdbRatings: omdbRatingsB } = filmB;
 
-    const findSourceA = omdbRatingsA.find(
-      ratingSource => ratingSource.Source === value
-    );
-    const findSourceB = omdbRatingsB.find(
-      ratingSource => ratingSource.Source === value
-    );
+    if (!omdbRatingsA && !!omdbRatingsB) {
+      return 1;
+    }
+
+    if (!!omdbRatingsA && !omdbRatingsB) {
+      return -1;
+    }
 
     if (!omdbRatingsA || !omdbRatingsB) {
       return 0;
     }
 
-    const normalizeValue = ratingSource => {
+    const findSourceA = omdbRatingsA.find(
+      (ratingSource) => ratingSource.Source === value
+    );
+    const findSourceB = omdbRatingsB.find(
+      (ratingSource) => ratingSource.Source === value
+    );
+
+    const normalizeValue = (ratingSource) => {
       if (ratingSource.Source === "Internet Movie Database") {
         return ratingSource.Value.split("/")[0];
       }
@@ -139,7 +147,7 @@ const FilmsProvider = ({ children }) => {
         availableGenres,
         films,
         filterByGenre,
-        sortBy
+        sortBy,
       }}
     >
       {children}
@@ -150,8 +158,8 @@ const FilmsProvider = ({ children }) => {
 FilmsProvider.propTypes = {
   children: PropTypes.oneOfType([
     PropTypes.arrayOf(PropTypes.node),
-    PropTypes.node
-  ]).isRequired
+    PropTypes.node,
+  ]).isRequired,
 };
 
 export default FilmsProvider;

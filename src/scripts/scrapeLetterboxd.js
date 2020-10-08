@@ -1,13 +1,16 @@
 const puppeteer = require("puppeteer");
 const cheerio = require("cheerio");
 
-const scrapeLetterboxd = async id => {
+const scrapeLetterboxd = async (id) => {
   const browser = await puppeteer.launch();
 
   let rating = null;
   try {
     const page = await browser.newPage();
-    await page.goto(`https://letterboxd.com/tmdb/${id}`);
+    await page.goto(`https://letterboxd.com/tmdb/${id}`, {
+      waitUntil: "load",
+      timeout: 0,
+    });
 
     let content = await page.content();
     var $ = cheerio.load(content);
