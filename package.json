@@ -26,7 +26,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "saveFilmsData": "node src/scripts/saveFilmsData.js",
+    "update": "yarn scrape && yarn fetchDetails",
+    "fetchDetails": "node src/scripts/saveFilmsData.js",
     "scrape": "node src/scripts/scrapeFilmsInPortugal.js & node src/scripts/saveFilmsData.js",
     "backdrops": "node src/scripts/saveBackdropData.js"
   },

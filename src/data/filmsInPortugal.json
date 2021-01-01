@@ -1,31 +1,21 @@
 [
   {
-    "portugueseTitle": "#AnneFrank - Vidas Paralelas",
-    "originalTitle": "#AnneFrank. Vite parallele",
+    "portugueseTitle": "A Felicidade das Pequenas Coisas",
+    "originalTitle": "Momenti di trascurabile felicità",
     "year": "2019"
   },
   {
-    "portugueseTitle": "A Fábrica dos Sonhos",
-    "originalTitle": "Drømmebyggerne",
+    "portugueseTitle": "A Linha do Horizonte",
+    "originalTitle": "Horizon Line",
     "year": "2020"
   },
   {
-    "portugueseTitle": "A Galeria dos Corações Partidos",
-    "originalTitle": "The Broken Hearts Gallery",
+    "portugueseTitle": "A Maldição de Larry",
+    "originalTitle": "Come Play",
     "year": "2020"
   },
   {
-    "portugueseTitle": "A Ovelha Choné O Filme - A Quinta Contra-Ataca",
-    "originalTitle": "A Shaun the Sheep Movie: Farmageddon",
-    "year": "2019"
-  },
-  {
-    "portugueseTitle": "A Vida Extraordinária de David Copperfield",
-    "originalTitle": "The Personal History of David Copperfield",
-    "year": "2019"
-  },
-  {
-    "portugueseTitle": "Adam",
+    "portugueseTitle": "A Vida Invisível",
     "originalTitle": "",
     "year": "2019"
   },
@@ -40,19 +30,34 @@
     "year": "2019"
   },
   {
-    "portugueseTitle": "Amanhã",
-    "originalTitle": "Demain",
-    "year": "2015"
-  },
-  {
     "portugueseTitle": "Antebellum: A Escolhida",
     "originalTitle": "Antebellum",
     "year": "2020"
   },
   {
-    "portugueseTitle": "Bem-Vindos a África!",
-    "originalTitle": "Rendez-vous chez les Malawas",
-    "year": "2019"
+    "portugueseTitle": "Apaga o Histórico",
+    "originalTitle": "Effacer l'historique",
+    "year": "2020"
+  },
+  {
+    "portugueseTitle": "As Bruxas de Roald Dahl",
+    "originalTitle": "Roald Dahl's The Witches",
+    "year": "2020"
+  },
+  {
+    "portugueseTitle": "As Novas Feiticeiras",
+    "originalTitle": "The Craft: Legacy",
+    "year": "2020"
+  },
+  {
+    "portugueseTitle": "As Verdadeiras Mães",
+    "originalTitle": "Asa ga Kuru",
+    "year": "2020"
+  },
+  {
+    "portugueseTitle": "Ava",
+    "originalTitle": "",
+    "year": "2020"
   },
   {
     "portugueseTitle": "Bora Lá",
@@ -60,13 +65,33 @@
     "year": "2020"
   },
   {
-    "portugueseTitle": "Capitão Dentes de Sabre e o Diamante Mágico",
-    "originalTitle": "Kaptein Sabeltann og den magiske diamant",
+    "portugueseTitle": "Capitão Marvel",
+    "originalTitle": "Captain Marvel",
+    "year": "2019"
+  },
+  {
+    "portugueseTitle": "Cinderela",
+    "originalTitle": "Cinderella",
+    "year": "2015"
+  },
+  {
+    "portugueseTitle": "Como Treinares o Teu Dragão: O Mundo Secreto",
+    "originalTitle": "How to Train Your Dragon: The Hidden World",
+    "year": "2019"
+  },
+  {
+    "portugueseTitle": "Corre!",
+    "originalTitle": "Run",
     "year": "2020"
   },
   {
-    "portugueseTitle": "Code 8: Renegados",
-    "originalTitle": "Code 8",
+    "portugueseTitle": "David Byrne's American Utopia",
+    "originalTitle": "",
+    "year": "2020"
+  },
+  {
+    "portugueseTitle": "Doutor?",
+    "originalTitle": "Docteur?",
     "year": "2019"
   },
   {
@@ -75,14 +100,14 @@
     "year": "2020"
   },
   {
-    "portugueseTitle": "Fantasmas de Guerra",
-    "originalTitle": "Ghosts of War",
-    "year": "2020"
+    "portugueseTitle": "Frozen 2: O Reino do Gelo",
+    "originalTitle": "Frozen II",
+    "year": "2019"
   },
   {
-    "portugueseTitle": "Farming",
-    "originalTitle": "",
-    "year": "2019"
+    "portugueseTitle": "Fuga de Pretória",
+    "originalTitle": "Escape From Pretoria",
+    "year": "2020"
   },
   {
     "portugueseTitle": "Greenland - O Último Refúgio",
@@ -90,64 +115,74 @@
     "year": "2020"
   },
   {
+    "portugueseTitle": "J'accuse - O Oficial e o Espião",
+    "originalTitle": "J'accuse",
+    "year": "2019"
+  },
+  {
+    "portugueseTitle": "Jiu Jitsu",
+    "originalTitle": "",
+    "year": "2020"
+  },
+  {
+    "portugueseTitle": "Liberté",
+    "originalTitle": "",
+    "year": "2019"
+  },
+  {
     "portugueseTitle": "Liga dos Animais Fantásticos",
     "originalTitle": "Pets United",
     "year": "2019"
   },
   {
-    "portugueseTitle": "Mãe Fora, Dia Santo em Casa",
-    "originalTitle": "10 jours sans maman",
-    "year": "2020"
-  },
-  {
-    "portugueseTitle": "Mãe Só Há Uma",
-    "originalTitle": "",
-    "year": "2016"
-  },
-  {
-    "portugueseTitle": "Martin Eden",
-    "originalTitle": "",
-    "year": "2019"
-  },
-  {
-    "portugueseTitle": "Mulheres ao Poder",
-    "originalTitle": "Misbehaviour",
-    "year": "2020"
-  },
-  {
-    "portugueseTitle": "My Hero Academia:Ascensão dos Heróis",
-    "originalTitle": "My Hero Academia: Heroes Rising",
-    "year": "2019"
-  },
-  {
-    "portugueseTitle": "O 3º Andar: Terror na Rua Malasaña",
-    "originalTitle": "Malasaña 32",
-    "year": "2020"
-  },
-  {
-    "portugueseTitle": "O Ano da Morte de Ricardo Reis",
+    "portugueseTitle": "Listen",
     "originalTitle": "",
     "year": "2020"
   },
   {
-    "portugueseTitle": "O Fim do Mundo",
+    "portugueseTitle": "Malmkrog",
     "originalTitle": "",
-    "year": "2019"
-  },
-  {
-    "portugueseTitle": "O Legado",
-    "originalTitle": "Inheritance",
     "year": "2020"
   },
   {
-    "portugueseTitle": "O Ninho",
-    "originalTitle": "The Nest",
+    "portugueseTitle": "Miss",
+    "originalTitle": "",
     "year": "2020"
   },
   {
-    "portugueseTitle": "O Nosso Tempo",
-    "originalTitle": "Nuestro tiempo",
+    "portugueseTitle": "Mulher Maravilha 1984",
+    "originalTitle": "Wonder Woman 1984",
+    "year": "2020"
+  },
+  {
+    "portugueseTitle": "O Amor É Uma Aventura",
+    "originalTitle": "Love, Weddings and Other Disasters",
+    "year": "2020"
+  },
+  {
+    "portugueseTitle": "O Caso de Sarah e Saleem",
+    "originalTitle": "The Reports on Sarah and Saleem",
     "year": "2018"
+  },
+  {
+    "portugueseTitle": "O Mal Não Existe",
+    "originalTitle": "Sheytan vojud nadarad",
+    "year": "2021"
+  },
+  {
+    "portugueseTitle": "O Melhor Ainda Está Para Vir",
+    "originalTitle": "Le meilleur reste à venir",
+    "year": "2019"
+  },
+  {
+    "portugueseTitle": "O Mundo Secreto dos Dragões",
+    "originalTitle": "Drachenreiter",
+    "year": "2020"
+  },
+  {
+    "portugueseTitle": "O Rei Leão",
+    "originalTitle": "The Lion King",
+    "year": "2019"
   },
   {
     "portugueseTitle": "O Sal das Lágrimas",
@@ -165,73 +200,83 @@
     "year": "2020"
   },
   {
-    "portugueseTitle": "O Segredo: Atreve-te a Sonhar",
-    "originalTitle": "The Secret: Dare to Dream",
+    "portugueseTitle": "O Teu Melhor Amigo",
+    "originalTitle": "Think Like a Dog",
     "year": "2020"
   },
   {
-    "portugueseTitle": "Ordem Moral",
-    "originalTitle": "",
+    "portugueseTitle": "Os Croods: Uma Nova Era",
+    "originalTitle": "The Croods: A New Age",
     "year": "2020"
   },
   {
-    "portugueseTitle": "Os Novos Mutantes",
-    "originalTitle": "The New Mutants",
+    "portugueseTitle": "Pinóquio",
+    "originalTitle": "Pinocchio",
+    "year": "2019"
+  },
+  {
+    "portugueseTitle": "Retrato de Uma Rapariga em Chamas",
+    "originalTitle": "Portrait de la jeune fille en feu",
+    "year": "2019"
+  },
+  {
+    "portugueseTitle": "Salma e o Grande Sonho",
+    "originalTitle": "Dia de Muertos",
+    "year": "2019"
+  },
+  {
+    "portugueseTitle": "Sem Saída",
+    "originalTitle": "Follow Me",
     "year": "2020"
   },
   {
-    "portugueseTitle": "Radioativo",
-    "originalTitle": "Radioactive",
+    "portugueseTitle": "Sibéria",
+    "originalTitle": "Siberia",
     "year": "2020"
   },
   {
-    "portugueseTitle": "Scooby!",
-    "originalTitle": "Scoob!",
+    "portugueseTitle": "Super-Inteligência",
+    "originalTitle": "Superintelligence",
     "year": "2020"
   },
   {
-    "portugueseTitle": "Sobreviver na Noite",
-    "originalTitle": "Survive the Night",
-    "year": "2020"
+    "portugueseTitle": "The Incredibles 2: Os Super-Heróis",
+    "originalTitle": "Incredibles 2",
+    "year": "2018"
   },
   {
-    "portugueseTitle": "Sonic - O Filme",
-    "originalTitle": "Sonic the Hedgehog",
-    "year": "2020"
+    "portugueseTitle": "The Operative - Agente Infiltrada",
+    "originalTitle": "The Operative",
+    "year": "2019"
   },
   {
-    "portugueseTitle": "Spycies: Agentes Especiais",
-    "originalTitle": "Spycies",
-    "year": "2020"
-  },
-  {
-    "portugueseTitle": "Summerland - O Verão das Nossas Vidas",
-    "originalTitle": "Summerland",
-    "year": "2020"
-  },
-  {
-    "portugueseTitle": "Surdina",
+    "portugueseTitle": "Toy Story 4",
     "originalTitle": "",
     "year": "2019"
   },
   {
-    "portugueseTitle": "Tenet",
+    "portugueseTitle": "Trolls: Tour Mundial",
+    "originalTitle": "Trolls World Tour",
+    "year": "2020"
+  },
+  {
+    "portugueseTitle": "Um Último Golpe",
+    "originalTitle": "Honest Thief",
+    "year": "2020"
+  },
+  {
+    "portugueseTitle": "Undine",
     "originalTitle": "",
     "year": "2020"
   },
   {
-    "portugueseTitle": "Um Príncipe em Apuros",
-    "originalTitle": "Le prince oublié",
+    "portugueseTitle": "Vivarium",
+    "originalTitle": "",
     "year": "2020"
   },
   {
-    "portugueseTitle": "Uma Sereia em Paris",
-    "originalTitle": "Une sirène à Paris",
-    "year": "2020"
-  },
-  {
-    "portugueseTitle": "Verão de 85",
-    "originalTitle": "Été 85",
-    "year": "2020"
+    "portugueseTitle": "Yama No Anata - Para Além das Montanhas",
+    "originalTitle": "",
+    "year": "2011"
   }
 ]
