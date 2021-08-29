@@ -4,7 +4,7 @@ import { ReactComponent as MetacriticLogo } from "../../icons/metacritic.svg";
 import { ReactComponent as LetterboxdLogo } from "../../icons/letterboxd.svg";
 import React from "react";
 import cx from "classnames";
-import Styles from "./Ratings.module.scss";
+import Styles from "./Ratings.module.css";
 
 const Ratings = ({ film }) => {
   const { imdbRating, omdbRatings, letterboxdRating, imdb_id } = film;

@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Styles from "./ImgLoader.module.scss";
+import Styles from "./ImgLoader.module.css";
 import cx from "classnames";
 
 const ImageLoader = ({ className, src, filmTitle }) => {
