@@ -15,13 +15,22 @@ const Header = () => {
     return () => null;
   }, []);
 
+  const Wrapper = styled.div`
+    z-index: 1;
+
+    @media screen and (min-width: 768px) {
+      width: 80%;
+      align-self: center;
+    }
+  `;
+
   const Header = styled.header`
     position: relative;
     display: flex;
     justify-content: center;
     flex-flow: column;
     padding: 2.4rem;
-    height: 20rem;
+    height: 50vh;
     @media (min-width: 80rem) {
       height: 50rem;
     }
@@ -59,7 +68,6 @@ const Header = () => {
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 0.5rem;
-    z-index: 1;
   `;
 
   const Subtitle = styled.p`
@@ -67,13 +75,14 @@ const Header = () => {
     color: #606a70;
     font-size: 1.6rem;
     margin-bottom: 5rem;
-    z-index: 1;
   `;
 
   return (
     <Header>
-      <Title>Cinepickr</Title>
-      <Subtitle>pick the movie for you</Subtitle>
+      <Wrapper>
+        <Title>Cinepickr</Title>
+        <Subtitle>pick the movie for you</Subtitle>
+      </Wrapper>
       <Backdrop />
     </Header>
   );

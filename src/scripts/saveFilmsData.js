@@ -1,4 +1,5 @@
 const filmsInPortugal = require("../data/filmsInPortugal.json");
+const letterboxdRatings = require("../data/letterboxdRatings.json");
 
 const jsonfile = require("jsonfile");
 
@@ -8,22 +9,42 @@ const scrapeLetterboxd = require("./scrapeLetterboxd.js");
 
 const saveFilmsData = async () => {
   const filmsFullDetail = await fetchMoreInfoFromTmdb(filmsInPortugal);
+  const filterOutResults = filmsFullDetail.filter((item) => !!item);
 
-  const filterOutResults = filmsFullDetail.filter(item => !!item);
+  const letterboxdRatings = await scrapeLetterboxd(filmsFullDetail);
+
+  const mergeWithLetterboxdRating = filterOutResults.map((film) => {
+    const letterboxdRating = letterboxdRatings.find(
+      (f) => f.id === film.id
+    )?.rating;
+
+    return {
+      ...film,
+      ...(letterboxdRating && { letterboxdRating }),
+    };
+  });
 
   jsonfile.writeFile(
-    "./src/data/filmsFullDetail.json",
-    filterOutResults,
+    "./src/data/letterboxdRatings.json",
+    letterboxdRatings,
     { spaces: 2 },
-    err => {
+    (err) => {
+      err && console.error(`error in saving letterboxdRatings: ${err}`);
+    }
+  );
+  jsonfile.writeFile(
+    "./src/data/filmsFullDetail.json",
+    mergeWithLetterboxdRating,
+    { spaces: 2 },
+    (err) => {
       err && console.error(`error in saving filmsFullDetail: ${err}`);
     }
   );
 };
 
-const fetchMoreInfoFromTmdb = async films => {
+const fetchMoreInfoFromTmdb = async (films) => {
   return Promise.all(
-    films.map(async film => {
+    films.map(async (film) => {
       if (!film.originalTitle && !film.portugueseTitle) {
         return null;
       }
@@ -32,12 +53,12 @@ const fetchMoreInfoFromTmdb = async films => {
       const year = film.year;
       const lang = film.originalTitle ? "en-US" : "pt-PT";
 
-      return await searchForFilmInTmdb(title, year, lang);
+      return await fetchMoreDetails(title, year, lang);
     })
   );
 };
 
-const searchForFilmInTmdb = async (title, year, lang) => {
+const fetchMoreDetails = async (title, year, lang) => {
   const response = await fetchFilmInTmdb(title, year, lang);
 
   if (response.results.length === 0) {
@@ -59,15 +80,12 @@ const searchForFilmInTmdb = async (title, year, lang) => {
     filmOmdbDetails = await fetchOmdbDetails(filmWithMoreDetails.imdb_id);
   }
 
-  const letterboxdRating = await scrapeLetterboxd(film.id);
-
   return {
     ...filmWithMoreDetails,
     ...(filmHasImdbId && {
       imdbRating: filmOmdbDetails.imdbRating,
-      omdbRatings: filmOmdbDetails.Ratings
+      omdbRatings: filmOmdbDetails.Ratings,
     }),
-    letterboxdRating
   };
 };
 

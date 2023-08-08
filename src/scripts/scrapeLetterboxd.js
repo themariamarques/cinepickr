@@ -1,11 +1,19 @@
 const puppeteer = require("puppeteer");
 const cheerio = require("cheerio");
 
-const scrapeLetterboxd = async (id) => {
+const IS_MOCK = false;
+const mockHtml = require("../mocks/mockLetterboxd");
+
+const scrapeLetterboxd = async (films) => {
   const browser = await puppeteer.launch();
 
-  let rating = null;
-  try {
+  const filmsWithId = films.filter((films) => !!films.id);
+
+  let ratings = [];
+
+  const getRating = async (id) => {
+    console.log(`🤖 Opening page for film ${id} 📽`);
+
     const page = await browser.newPage();
     await page.goto(`https://letterboxd.com/tmdb/${id}`, {
       waitUntil: "load",
@@ -13,17 +21,34 @@ const scrapeLetterboxd = async (id) => {
     });
 
     let content = await page.content();
-    var $ = cheerio.load(content);
+    var $ = cheerio.load(IS_MOCK ? mockHtml : content);
 
-    rating = $("span.average-rating > a").text();
-  } catch (err) {
-    console.log(err.message);
-  } finally {
-    console.log(`FINISHED SCRAPING LETTERBOXD FOR ID: ${id}`);
+    const metaRating = $('[name="twitter:data2"]')
+      ?.attr("content")
+      ?.split(" out")[0];
+    const ratingLabel = $("span.average-rating > a").text();
 
-    browser.close();
-    return rating;
-  }
+    const rating = metaRating || ratingLabel;
+
+    ratings.push({ id, rating });
+    console.log(
+      rating
+        ? `🤖 Rating crawled for film id ${id}: ${rating}⭐ `
+        : `🤖 No rating found for film id ${id}`
+    );
+
+    Promise.resolve(rating);
+  };
+
+  await Promise.all(
+    filmsWithId?.map(async ({ id }) => {
+      return await getRating(id);
+    })
+  );
+
+  browser.close();
+
+  return ratings;
 };
 
 module.exports = scrapeLetterboxd;

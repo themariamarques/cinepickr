@@ -15,8 +15,8 @@ const FilmsList = () => {
         <SortBy />
       </div>
       <div className={Styles.content}>
-        {films.map(film => (
-          <FilmCard key={`list_film_${film.id}`} film={film} />
+        {films.map((film, index) => (
+          <FilmCard key={`list_film_${film.id}_${index}`} film={film} />
         ))}
       </div>
     </div>
