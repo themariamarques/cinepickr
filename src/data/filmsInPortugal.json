@@ -1,277 +1,307 @@
 [
   {
+    "portugueseTitle": "20 000 Espécies de Abelhas",
+    "originalTitle": "20.000 especies de abejas",
+    "year": "2023"
+  },
+  {
     "portugueseTitle": "A Aventura (reposição)",
     "originalTitle": "L'avventura",
     "year": "1960"
   },
   {
-    "portugueseTitle": "A Coleccionadora (reposição)",
-    "originalTitle": "La Collectionneuse",
-    "year": "1967"
-  },
-  {
-    "portugueseTitle": "A Minha Noite em Casa de Maud (reposição)",
-    "originalTitle": "Ma nuit chez Maud",
+    "portugueseTitle": "A Infância Nua (Ciclo Um Verão com Maurice Pialat)",
+    "originalTitle": "L'Enfance nue",
     "year": "1969"
   },
   {
-    "portugueseTitle": "A Noite (reposição)",
-    "originalTitle": "La notte",
+    "portugueseTitle": "A Lua Ascendeu (cópia restaurada - ciclo Kinuyo Tanaka)",
+    "originalTitle": "Tsuki wa noborinu",
+    "year": "1955"
+  },
+  {
+    "portugueseTitle": "A Pequena Sereia",
+    "originalTitle": "The Little Mermaid",
+    "year": "2023"
+  },
+  {
+    "portugueseTitle": "A Princesa Errante (cópia restaurada - ciclo Kinuyo Tanaka)",
+    "originalTitle": "Ruten no ôhi",
+    "year": "1960"
+  },
+  {
+    "portugueseTitle": "A Rapariga da Mala",
+    "originalTitle": "La ragazza con la valigia",
     "year": "1961"
   },
   {
-    "portugueseTitle": "A Noite dos Reis",
-    "originalTitle": "La Nuit des rois",
-    "year": "2021"
+    "portugueseTitle": "A Viagem do Papa Francisco",
+    "originalTitle": "In viaggio",
+    "year": "2022"
   },
   {
-    "portugueseTitle": "A Protegida",
-    "originalTitle": "The Protégé",
-    "year": "2021"
+    "portugueseTitle": "A Vida Íntima de Um Casal (Ciclo Um Verão com Maurice Pialat)",
+    "originalTitle": "La Gueule ouverte",
+    "year": "1974"
   },
   {
-    "portugueseTitle": "A Voz Humana",
-    "originalTitle": "The Human Voice",
-    "year": "2020"
+    "portugueseTitle": "Alemanha, Ano Zero (versão digital restaurada)",
+    "originalTitle": "Germania, Anno Zero",
+    "year": "1948"
   },
   {
-    "portugueseTitle": "After Depois do Desencontro",
-    "originalTitle": "After We Fell",
-    "year": "2021"
+    "portugueseTitle": "Alguém Vai Amar Alguém",
+    "originalTitle": "Mishehu Yohav Mishehu",
+    "year": "2022"
   },
   {
-    "portugueseTitle": "Annette",
-    "originalTitle": "",
-    "year": "2021"
+    "portugueseTitle": "Ao Sol de Satanás (Ciclo Um Verão com Maurice Pialat)",
+    "originalTitle": "Sous le soleil de Satan",
+    "year": "1987"
   },
   {
-    "portugueseTitle": "As Férias Loucas de Barb e Star",
-    "originalTitle": "Barb & Star Go to Vista Del Mar",
-    "year": "2021"
+    "portugueseTitle": "Aos Nossos Amores (Ciclo Um Verão com Maurice Pialat)",
+    "originalTitle": "À nos amours",
+    "year": "1983"
   },
   {
-    "portugueseTitle": "As Rainhas do Desconto",
-    "originalTitle": "Queenpins",
-    "year": "2021"
-  },
-  {
-    "portugueseTitle": "Bem Bom",
-    "originalTitle": "",
-    "year": "2021"
-  },
-  {
-    "portugueseTitle": "Boss Baby: Negócios de Família",
-    "originalTitle": "The Boss Baby: Family Business",
-    "year": "2021"
-  },
-  {
-    "portugueseTitle": "Boss Level - O Último Nível",
-    "originalTitle": "Boss Level",
+    "portugueseTitle": "As Aventuras de StarDog e TurboCat",
+    "originalTitle": "StarDog and TurboCat",
     "year": "2019"
   },
   {
-    "portugueseTitle": "Candyman",
+    "portugueseTitle": "Asteroid City",
     "originalTitle": "",
-    "year": "2021"
+    "year": "2023"
   },
   {
-    "portugueseTitle": "Contos de Um Verão Negro",
-    "originalTitle": "Favolacce",
-    "year": "2020"
-  },
-  {
-    "portugueseTitle": "D'Artacão e os 3 Moscãoteiros",
-    "originalTitle": "D'Artacán y los tres mosqueperros",
-    "year": "2021"
-  },
-  {
-    "portugueseTitle": "Diários De Otsoga",
+    "portugueseTitle": "Barbie",
     "originalTitle": "",
+    "year": "2023"
+  },
+  {
+    "portugueseTitle": "Cobweb - Segredo Maldito",
+    "originalTitle": "Cobweb",
+    "year": "2023"
+  },
+  {
+    "portugueseTitle": "Elemental",
+    "originalTitle": "",
+    "year": "2023"
+  },
+  {
+    "portugueseTitle": "Escola de Coelhos: Missão Ovo Dourado",
+    "originalTitle": "Die Häschenschule 2 – Der große Eierklau",
+    "year": "2022"
+  },
+  {
+    "portugueseTitle": "Eva (versão do realizador - reposição)",
+    "originalTitle": "Eva",
+    "year": "1962"
+  },
+  {
+    "portugueseTitle": "Fica Connosco",
+    "originalTitle": "Reste un peu",
+    "year": "2022"
+  },
+  {
+    "portugueseTitle": "Finalmente o Verão",
+    "originalTitle": "Cet été-là",
+    "year": "2023"
+  },
+  {
+    "portugueseTitle": "Homem-Aranha: Através Do Aranhaverso",
+    "originalTitle": "Spider-Man: Across the Spider-Verse",
+    "year": "2023"
+  },
+  {
+    "portugueseTitle": "Indiana Jones e o Marcador do Destino",
+    "originalTitle": "Indiana Jones and the Dial of Destiny",
+    "year": "2023"
+  },
+  {
+    "portugueseTitle": "Insidious: A Porta Vermelha",
+    "originalTitle": "Insidious: The Red Door",
+    "year": "2023"
+  },
+  {
+    "portugueseTitle": "Ladrões de Bicicletas (reposição)",
+    "originalTitle": "Ladri di biciclette",
+    "year": "1948"
+  },
+  {
+    "portugueseTitle": "Loulou (Ciclo Um Verão com Maurice Pialat)",
+    "originalTitle": "Loulou",
+    "year": "1980"
+  },
+  {
+    "portugueseTitle": "Mal Viver",
+    "originalTitle": "",
+    "year": "2023"
+  },
+  {
+    "portugueseTitle": "Mamma Roma (Ciclo o Cinema Segundo Pasolini)",
+    "originalTitle": "Mamma Roma",
+    "year": "1962"
+  },
+  {
+    "portugueseTitle": "Mansão Assombrada",
+    "originalTitle": "Haunted Mansion",
+    "year": "2023"
+  },
+  {
+    "portugueseTitle": "Maya Nilo (Laura)",
+    "originalTitle": "",
+    "year": "2022"
+  },
+  {
+    "portugueseTitle": "Meg 2: O Regresso do Tubarão Gigante",
+    "originalTitle": "Meg 2: The Trench",
+    "year": "2023"
+  },
+  {
+    "portugueseTitle": "Missão: Impossível - Ajuste de Contas Parte Um",
+    "originalTitle": "Mission: Impossible - Dead Reckoning Part One",
+    "year": "2023"
+  },
+  {
+    "portugueseTitle": "Nostalgia (Ciclo Andrei Tarkovsky)",
+    "originalTitle": "Nostalghia",
+    "year": "1983"
+  },
+  {
+    "portugueseTitle": "O Amor (versão digital restaurada)",
+    "originalTitle": "L'Amore",
+    "year": "1948"
+  },
+  {
+    "portugueseTitle": "O Medo (versão digital restaurada)",
+    "originalTitle": "Non Credo Più All'amore (La Paura)",
+    "year": "1954"
+  },
+  {
+    "portugueseTitle": "O Milagre de Milão (reposição)",
+    "originalTitle": "Miracolo a Milano",
+    "year": "1951"
+  },
+  {
+    "portugueseTitle": "O Miúdo (Ciclo Um Verão com Maurice Pialat)",
+    "originalTitle": "Le Garçu",
+    "year": "1995"
+  },
+  {
+    "portugueseTitle": "Olha Que Três!",
+    "originalTitle": "La vie pour de vrai",
+    "year": "2023"
+  },
+  {
+    "portugueseTitle": "Oppenheimer",
+    "originalTitle": "",
+    "year": "2023"
+  },
+  {
+    "portugueseTitle": "Os Demónios do Meu Avô",
+    "originalTitle": "",
+    "year": "2022"
+  },
+  {
+    "portugueseTitle": "Ovos de Ouro - Uma Aventura em África",
+    "originalTitle": "Un rescate de huevitos",
     "year": "2021"
   },
   {
-    "portugueseTitle": "Escândalo de Amor (reposição)",
-    "originalTitle": "Cronaca di un amore",
-    "year": "1950"
+    "portugueseTitle": "Para Sempre Mulher (cópia restaurada - ciclo Kinuyo Tanaka)",
+    "originalTitle": "Chibusa yo eien nare",
+    "year": "1955"
   },
   {
-    "portugueseTitle": "Escape Room 2: Sem Saída",
-    "originalTitle": "Escape Room: Tournament of Champions",
-    "year": "2021"
+    "portugueseTitle": "Passarinhos e Passarões (Ciclo o Cinema Segundo Pasolini)",
+    "originalTitle": "Uccellacci e uccellini",
+    "year": "1966"
   },
   {
-    "portugueseTitle": "First Cow - A Primeira Vaca da América",
-    "originalTitle": "First Cow",
-    "year": "2020"
+    "portugueseTitle": "Polícia (Ciclo Um Verão com Maurice Pialat)",
+    "originalTitle": "Police",
+    "year": "1985"
   },
   {
-    "portugueseTitle": "Free Guy: Herói Improvável",
-    "originalTitle": "Free Guy",
-    "year": "2021"
+    "portugueseTitle": "Pôr do Sol: O Mistério do Colar de São Cajó",
+    "originalTitle": "O Mistério do Colar de São Cajó",
+    "year": "2023"
   },
   {
-    "portugueseTitle": "Funeral de Estado",
-    "originalTitle": "State Funeral",
-    "year": "2020"
+    "portugueseTitle": "Primeiro Passa no Exame (Ciclo Um Verão com Maurice Pialat)",
+    "originalTitle": "Passe ton bac d'abord",
+    "year": "1978"
   },
   {
-    "portugueseTitle": "Identificação de Uma Mulher (reposição)",
-    "originalTitle": "Identificazione di una donna",
-    "year": "1982"
-  },
-  {
-    "portugueseTitle": "Jungle Cruise - A Maldição Nos Confins da Selva",
-    "originalTitle": "Jungle Cruise",
-    "year": "2021"
-  },
-  {
-    "portugueseTitle": "Missão Inesperada",
-    "originalTitle": "The Marksman",
-    "year": "2021"
-  },
-  {
-    "portugueseTitle": "Mistério em Saint- Tropez",
-    "originalTitle": "Mystère à Saint-Tropez",
-    "year": "2021"
-  },
-  {
-    "portugueseTitle": "Nem Respires 2",
-    "originalTitle": "Don't Breathe 2",
-    "year": "2021"
-  },
-  {
-    "portugueseTitle": "O Amor às 3 da Tarde (reposição)",
-    "originalTitle": "L'amour l'après-midi",
+    "portugueseTitle": "Quando o Amor Acaba (Ciclo Um Verão com Maurice Pialat)",
+    "originalTitle": "Nous ne vieillirons pas ensemble",
     "year": "1972"
   },
   {
-    "portugueseTitle": "O Caso de Sarah e Saleem",
-    "originalTitle": "The Reports on Sarah and Saleem",
-    "year": "2018"
+    "portugueseTitle": "Roma, Cidade Aberta (versão digital restaurada)",
+    "originalTitle": "Roma, Città Aperta",
+    "year": "1945"
   },
   {
-    "portugueseTitle": "O Deserto Vermelho (reposição)",
-    "originalTitle": "Il deserto rosso",
-    "year": "1964"
+    "portugueseTitle": "Ruby - Kraken Adolescente",
+    "originalTitle": "Ruby Gillman, Teenage Kraken",
+    "year": "2023"
   },
   {
-    "portugueseTitle": "O Eclipse (reposição)",
-    "originalTitle": "L'eclisse",
-    "year": "1962"
+    "portugueseTitle": "Stromboli (versão digital restaurada)",
+    "originalTitle": "Stromboli",
+    "year": "1950"
   },
   {
-    "portugueseTitle": "O Espião Inglês",
-    "originalTitle": "The Courier",
-    "year": "2021"
+    "portugueseTitle": "Super Mario: O Filme",
+    "originalTitle": "The Super Mario Bros. Movie",
+    "year": "2023"
   },
   {
-    "portugueseTitle": "O Esquadrão Suicida",
-    "originalTitle": "The Suicide Squad",
-    "year": "2021"
+    "portugueseTitle": "Trenque Lauquen (1.ª Parte)",
+    "originalTitle": "Trenque Lauquen",
+    "year": "2023"
   },
   {
-    "portugueseTitle": "O Grito (reposição)",
-    "originalTitle": "Il Grido",
-    "year": "1957"
+    "portugueseTitle": "Trenque Lauquen (2.ª Parte)",
+    "originalTitle": "Trenque Lauquen",
+    "year": "2023"
   },
   {
-    "portugueseTitle": "O Joelho de Claire (reposição)",
-    "originalTitle": "Le genou de Claire",
-    "year": "1970"
-  },
-  {
-    "portugueseTitle": "O Meu Amigo É Ninja",
-    "originalTitle": "Ternet Ninja",
-    "year": "2018"
-  },
-  {
-    "portugueseTitle": "O Signo do Leão (reposição)",
-    "originalTitle": "Le Signe du Lion",
-    "year": "1962"
-  },
-  {
-    "portugueseTitle": "Operação Portugal",
-    "originalTitle": "Opération Portugal",
-    "year": "2021"
-  },
-  {
-    "portugueseTitle": "Os Croods: Uma Nova Era",
-    "originalTitle": "The Croods: A New Age",
-    "year": "2020"
-  },
-  {
-    "portugueseTitle": "Os Flofos: Viagem no Tempo",
-    "originalTitle": "Extinct",
-    "year": "2021"
-  },
-  {
-    "portugueseTitle": "Patrulha Pata: O Filme",
-    "originalTitle": "Paw Patrol: The Movie",
-    "year": "2021"
-  },
-  {
-    "portugueseTitle": "Peter Rabbit: Coelho à Solta",
-    "originalTitle": "Peter Rabbit 2: The Runaway",
-    "year": "2021"
-  },
-  {
-    "portugueseTitle": "Presos no Tempo",
-    "originalTitle": "Old",
-    "year": "2021"
-  },
-  {
-    "portugueseTitle": "Raya e o Último Dragão",
-    "originalTitle": "Raya and the Last Dragon",
-    "year": "2021"
-  },
-  {
-    "portugueseTitle": "Reminiscência",
-    "originalTitle": "Reminiscence",
-    "year": "2021"
-  },
-  {
-    "portugueseTitle": "Respect",
+    "portugueseTitle": "Trenque Lauquen",
     "originalTitle": "",
-    "year": "2021"
+    "year": "2023"
   },
   {
-    "portugueseTitle": "Space Jam: Uma Nova Era",
-    "originalTitle": "Space Jam: A New Legacy",
-    "year": "2021"
+    "portugueseTitle": "Tudo na Boa",
+    "originalTitle": "No Hard Feelings",
+    "year": "2023"
   },
   {
-    "portugueseTitle": "Spiral - O Novo Capítulo de Saw",
-    "originalTitle": "Spiral: From the Book of Saw",
-    "year": "2021"
+    "portugueseTitle": "Um Voo Altamente",
+    "originalTitle": "Richard the Stork and the Mystery of the Great Jewel",
+    "year": "2023"
   },
   {
-    "portugueseTitle": "Stardust - O Nascer de Uma Estrela",
-    "originalTitle": "Stardust",
-    "year": "2020"
+    "portugueseTitle": "Van Gogh (Ciclo Um Verão com Maurice Pialat)",
+    "originalTitle": "Van Gogh",
+    "year": "1991"
   },
   {
-    "portugueseTitle": "Um Homem Furioso",
-    "originalTitle": "Wrath of Man",
-    "year": "2021"
+    "portugueseTitle": "Velocidade Furiosa X",
+    "originalTitle": "Fast X",
+    "year": "2023"
   },
   {
-    "portugueseTitle": "Uma Família de Doidos",
-    "originalTitle": "Le Sens de la Famille",
-    "year": "2020"
+    "portugueseTitle": "Viagem em Itália (versão digital restaurada)",
+    "originalTitle": "Viaggio in Italia",
+    "year": "1954"
   },
   {
-    "portugueseTitle": "Upsss! 2: A Aventura Continua",
-    "originalTitle": "Ooops! The Adventure Continues",
-    "year": "2020"
-  },
-  {
-    "portugueseTitle": "Velocidade Furiosa 9",
-    "originalTitle": "Fast and Furious 9",
-    "year": "2021"
-  },
-  {
-    "portugueseTitle": "Viúva Negra",
-    "originalTitle": "Black Widow",
-    "year": "2021"
+    "portugueseTitle": "Viver Mal",
+    "originalTitle": "",
+    "year": "2023"
   }
 ]
